@@ -14,12 +14,20 @@ import {IonicPage, NavController, NavParams} from 'ionic-angular';
   templateUrl: 'feed.html',
 })
 export class FeedPage {
-  public nome_usuario: string = "Vinicius Silva";
+  public object_feed = {
+    name: "Vinicius Silva",
+    date: "May 2, 2018",
+    description: "Estou criando um app ionic.",
+    qtd_likes: 14,
+    qtd_comment: 4,
+    time_feed: "11h ago",
+
+  }
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  public somaDoisNumeros(num1:number, num2:number): void {
+  public somaDoisNumeros(num1: number, num2: number): void {
     //alert(num1 + num2);
   }
 
