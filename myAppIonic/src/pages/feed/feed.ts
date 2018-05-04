@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
+import {MovieProvider} from "../../providers/movie/movie";
 
 /**
  * Generated class for the FeedPage page.
@@ -12,6 +13,9 @@ import {IonicPage, NavController, NavParams} from 'ionic-angular';
 @Component({
   selector: 'page-feed',
   templateUrl: 'feed.html',
+  providers: [
+    MovieProvider
+  ]
 })
 export class FeedPage {
   public object_feed = {
@@ -20,20 +24,22 @@ export class FeedPage {
     description: "Estou criando um app ionic.",
     qtd_likes: 14,
     qtd_comment: 4,
-    time_feed: "11h ago",
-
+    time_feed: "11h ago"
   }
+  public list_moovie: Array<any> = new Array<any>();
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+  constructor(public navCtrl: NavController,
+              public navParams: NavParams,
+              private moovieProvider: MovieProvider) {
   }
 
   public somaDoisNumeros(num1: number, num2: number): void {
     //alert(num1 + num2);
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad FeedPage');
-    //this.somaDoisNumeros(10,5);
+  public ionViewDidLoad() {
+    this.moovieProvider.getLatestMovies();
   }
 
 }
