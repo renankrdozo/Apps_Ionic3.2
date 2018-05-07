@@ -30,24 +30,27 @@ export class FeedPage {
 
   private base_url: String = "https://api.themoviedb.org/3";
   private api_key: String = "2e3c87513c2287bea91b39e4d6033243";
-  public list_moovie: Array<any> = new Array<any>();
+  public list_movie = new Array<any>();
 
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
-              private moovieProvider: MovieProvider,
               public http: HttpClient) {
   }
 
   public ionViewDidLoad() {
     console.log("init ioViewDidLoad Method")
-    this.getLatestMoovies();
+    this.getLatestMovies();
   }
 
-  public getLatestMoovies() {
+  public getLatestMovies() {
     this.http.get(this.base_url + "/movie/popular?api_key=" + this.api_key).subscribe(data => {
-        console.log("getLatestMoovies Feed.ts");
-        this.list_moovie = data.results;
-        console.log(this.list_moovie);
+        console.log("getLatestMovies method in Feed.ts");
+        const response = (data as any);
+        const object_return = JSON.parse(JSON.stringify(response || null));
+        this.list_movie = object_return.results;
+        console.log(object_return);
+        console.log(this.list_movie);
+
       },
       error => {
         console

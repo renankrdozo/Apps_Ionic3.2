@@ -21,30 +21,30 @@ export class MovieProvider {
     //MovieProvider.list_moovie = new Array<Object>();
   }
 
-  public getLatestMovies() {
-    this.http.get(this.base_url + "/movie/popular?api_key=" + this.api_key).subscribe(data => {
-        MovieProvider.list_moovie = data.results
-       console.log(MovieProvider.list_moovie);
-        // this.list_moovie = data.results;
-        //this.setlist(this.list_moovie);
-        console.log("Movies.ts");
-       // console.log(MovieProvider.list_moovie);
-      },
-      error => {
-        console
-          .log(error);
+  // public getLatestMovies() {
+  //   this.http.get(this.base_url + "/movie/popular?api_key=" + this.api_key).subscribe(data => {
+  //       //MovieProvider.list_moovie = data.results
+  //     // console.log(MovieProvider.list_moovie);
+  //       // this.list_moovie = data.results;
+  //       //this.setlist(this.list_moovie);
+  //       console.log("Movies.ts");
+  //      // console.log(MovieProvider.list_moovie);
+  //     },
+  //     error => {
+  //       console
+  //         .log(error);
+  //
+  //     }
+  //   );
+  // }
 
-      }
-    );
-  }
-
-  get Param() {
-    return MovieProvider.list_moovie;
-  }
-
-  set Param(new_list: Array<Object>) {
-    MovieProvider.list_moovie = new_list;
-  }
+  // get Param() {
+  //   return MovieProvider.list_moovie;
+  // }
+  //
+  // set Param(new_list: Array<Object>) {
+  //   MovieProvider.list_moovie = new_list;
+  // }
 
 
   // public setlist(new_list: Array<Object>) {
