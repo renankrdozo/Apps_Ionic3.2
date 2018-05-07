@@ -44,13 +44,11 @@ export class FeedPage {
 
   public getLatestMovies() {
     this.http.get(this.base_url + "/movie/popular?api_key=" + this.api_key).subscribe(data => {
-        console.log("getLatestMovies method in Feed.ts");
         const response = (data as any);
         const object_return = JSON.parse(JSON.stringify(response || null));
         this.list_movie = object_return.results;
         console.log(object_return);
         console.log(this.list_movie);
-
       },
       error => {
         console
