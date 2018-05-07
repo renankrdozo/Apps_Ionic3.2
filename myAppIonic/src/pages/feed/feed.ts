@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
 import {MovieProvider} from "../../providers/movie/movie";
+import {HttpClient} from "@angular/common/http";
 
 /**
  * Generated class for the FeedPage page.
@@ -26,20 +27,34 @@ export class FeedPage {
     qtd_comment: 4,
     time_feed: "11h ago"
   }
-  public list_moovie: Array<any> = new Array<any>();
 
+  private base_url: String = "https://api.themoviedb.org/3";
+  private api_key: String = "2e3c87513c2287bea91b39e4d6033243";
+  public list_moovie: Array<any> = new Array<any>();
 
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
-              private moovieProvider: MovieProvider) {
-  }
-
-  public somaDoisNumeros(num1: number, num2: number): void {
-    //alert(num1 + num2);
+              private moovieProvider: MovieProvider,
+              public http: HttpClient) {
   }
 
   public ionViewDidLoad() {
-    this.moovieProvider.getLatestMovies();
+    console.log("init ioViewDidLoad Method")
+    this.getLatestMoovies();
+  }
+
+  public getLatestMoovies() {
+    this.http.get(this.base_url + "/movie/popular?api_key=" + this.api_key).subscribe(data => {
+        console.log("getLatestMoovies Feed.ts");
+        this.list_moovie = data.results;
+        console.log(this.list_moovie);
+      },
+      error => {
+        console
+          .log(error);
+
+      }
+    );
   }
 
 }

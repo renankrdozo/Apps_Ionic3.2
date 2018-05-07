@@ -46,4 +46,5 @@ import {HttpClientModule} from "@angular/common/http";
     MovieProvider
   ]
 })
-export class AppModule {}
+export class AppModule {
+}
