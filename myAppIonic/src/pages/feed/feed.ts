@@ -32,12 +32,15 @@ export class FeedPage {
   private api_key: String = "2e3c87513c2287bea91b39e4d6033243";
   public list_movie = new Array<any>();
   public loader;
+  public refresher;
+  public isRefreshing: boolean = false;
 
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               public http: HttpClient,
               public loadingCtrl: LoadingController) {
   }
+
   //metodo ionViewDidLoad carrega a página uma vez.
   //método ionViewDidEnter a página sempre será carregada quando for acessada.
   public ionViewDidEnter() {
@@ -63,17 +66,34 @@ export class FeedPage {
         const response = (data as any);
         const object_return = JSON.parse(JSON.stringify(response || null));
         this.list_movie = object_return.results;
-        console.log(object_return);
+        //console.log(object_return);
         console.log(this.list_movie);
         this.closeLoading();
+        this.completeRefresher();
       },
       error => {
         console
           .log(error);
         this.closeLoading();
+        this.completeRefresher();
 
       }
     );
+  }
+
+  //método inicial que faz o refresh na página de filmes
+  public doRefresh(refresher) {
+    this.refresher = refresher;
+    console.log('Begin async operation', refresher);
+    this.isRefreshing = true;
+    this.getLatestMovies();
+  }
+
+  public completeRefresher() {
+    if (this.isRefreshing) {
+      this.refresher.complete();
+      this.isRefreshing = false;
+    }
   }
 
 }
