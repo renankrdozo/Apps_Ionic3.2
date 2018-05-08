@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
 import {ProfilePage} from "../profile/profile";
-import {AboutPage} from "../sobre/about";
+import {AboutPage} from "../about/about";
 
 /**
  * Generated class for the ConfiguracoesPage page.

@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {IonicPage, LoadingController, NavController, NavParams} from 'ionic-angular';
 import {MovieProvider} from "../../providers/movie/movie";
 import {HttpClient} from "@angular/common/http";
+import {MovieDetailsPage} from "../movie-details/movie-details";
 
 /**
  * Generated class for the FeedPage page.
@@ -94,6 +95,13 @@ export class FeedPage {
       this.refresher.complete();
       this.isRefreshing = false;
     }
+  }
+
+  public openDetailsMovies(movies) {
+    console.log("Open details movie");
+    console.log(movies);
+    //enviando o id do filme para a página MovieDetails.
+    this.navCtrl.push(MovieDetailsPage, {id: movies.id});
   }
 
 }

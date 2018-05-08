@@ -1,10 +1,7 @@
-import {NgModule, ErrorHandler} from '@angular/core';
+import {ErrorHandler, NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {IonicApp, IonicModule, IonicErrorHandler} from 'ionic-angular';
+import {IonicApp, IonicErrorHandler, IonicModule} from 'ionic-angular';
 import {MyApp} from './app.component';
-
-//import { AboutPage } from '../pages/about/about';
-//import { ContactPage } from '../pages/contact/contact';
 import {HomePage} from '../pages/home/home';
 import {TabsPage} from '../pages/tabs/tabs';
 import {FeedPageModule} from '../pages/feed/feed.module';
@@ -16,13 +13,12 @@ import {MovieProvider} from '../providers/movie/movie';
 import {HttpClientModule} from "@angular/common/http";
 import {ConfigurationsPageModule} from "../pages/configurations/configurations.module";
 import {ProfilePageModule} from "../pages/profile/profile.module";
-import {AboutPageModule} from "../pages/sobre/about.module";
+import {AboutPageModule} from "../pages/about/about.module";
+import {MovieDetailsPageModule} from "../pages/movie-details/movie-details.module";
 
 @NgModule({
   declarations: [
     MyApp,
-    //AboutPage,
-    //ContactPage,
     HomePage,
     TabsPage
   ],
@@ -34,14 +30,13 @@ import {AboutPageModule} from "../pages/sobre/about.module";
     HttpClientModule,
     ConfigurationsPageModule,
     ProfilePageModule,
-    AboutPageModule
+    AboutPageModule,
+    MovieDetailsPageModule
 
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    // AboutPage,
-    // ContactPage,
     HomePage,
     TabsPage
   ],
