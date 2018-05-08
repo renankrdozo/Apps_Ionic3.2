@@ -22,8 +22,7 @@ export class ConfigProvider {
 
   //Recupera os dados do localStorage
   public getConfigData(): any {
-    //if ternario
-    return localStorage.getItem(config_key_name) || {};
+    return localStorage.getItem(config_key_name);
   }
 
   //Grava os dados do localStorage
