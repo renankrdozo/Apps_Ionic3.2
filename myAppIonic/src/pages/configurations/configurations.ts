@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {Component} from '@angular/core';
+import {IonicPage, NavController, NavParams} from 'ionic-angular';
+import {ProfilePage} from "../profile/profile";
+import {AboutPage} from "../sobre/about";
 
 /**
  * Generated class for the ConfiguracoesPage page.
@@ -14,6 +16,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'configurations.html',
 })
 export class ConfigurationsPage {
+  rootPage = ProfilePage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
@@ -22,4 +25,12 @@ export class ConfigurationsPage {
     console.log('ionViewDidLoad ConfiguracoesPage');
   }
 
+  //Metodo usado para ir a uma página
+  public openProfile() {
+    this.navCtrl.push(ProfilePage);
+  }
+
+  public openAbout() {
+    this.navCtrl.push(AboutPage);
+  }
 }
