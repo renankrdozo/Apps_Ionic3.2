@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {IonicPage, NavController, NavParams} from 'ionic-angular';
+import {IonicPage, LoadingController, NavController, NavParams} from 'ionic-angular';
 import {MovieProvider} from "../../providers/movie/movie";
 import {HttpClient} from "@angular/common/http";
 
@@ -31,28 +31,46 @@ export class FeedPage {
   private base_url: String = "https://api.themoviedb.org/3";
   private api_key: String = "2e3c87513c2287bea91b39e4d6033243";
   public list_movie = new Array<any>();
+  public loader;
 
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
-              public http: HttpClient) {
+              public http: HttpClient,
+              public loadingCtrl: LoadingController) {
   }
-
-  public ionViewDidLoad() {
+  //metodo ionViewDidLoad carrega a página uma vez.
+  //método ionViewDidEnter a página sempre será carregada quando for acessada.
+  public ionViewDidEnter() {
     console.log("init ioViewDidLoad Method")
     this.getLatestMovies();
   }
 
+  //função para carregar os filmes de acordo com o tempo de resposta do servidor.
+  public presentLoading() {
+    this.loader = this.loadingCtrl.create({
+      content: "Please wait...",
+    });
+    this.loader.present();
+  }
+
+  public closeLoading() {
+    this.loader.dismiss();
+  }
+
   public getLatestMovies() {
+    this.presentLoading();
     this.http.get(this.base_url + "/movie/popular?api_key=" + this.api_key).subscribe(data => {
         const response = (data as any);
         const object_return = JSON.parse(JSON.stringify(response || null));
         this.list_movie = object_return.results;
         console.log(object_return);
         console.log(this.list_movie);
+        this.closeLoading();
       },
       error => {
         console
           .log(error);
+        this.closeLoading();
 
       }
     );
