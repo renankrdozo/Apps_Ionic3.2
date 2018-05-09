@@ -1,2 +1,18 @@
 # App_Ionic3.2
-App ionic 3.2 with angular 5
+App ionic 3.2 com angular 5
+
+####################################################################
+
+Pequena aplicação que contém os seguintes conceitos aplicados:
+ - adicionando uma tela tabs
+ - adicionando uma tela de menu hamburger
+ - navegando entre o menu
+ - adicioando uma página inicial no menu
+ - adicionando o ícone do menu
+ - consumindo dados com httpClient (Get) da api : https://www.themoviedb.org/
+ - adicionando inifinite scroll na página de requisições
+ - adicionando loading até que a requisição seja concluída
+ - adicionando refresh na página de requisições
+ - navegando entre as tabs
+ - adicionando um localStorage para que a página inicial só mostre uma vez.
+ - adicionando imagens.png
