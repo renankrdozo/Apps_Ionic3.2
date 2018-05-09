@@ -2,6 +2,7 @@
 App ionic 3.2 com angular 5
 
 ####################################################################
+Projeto MyAppIonic:
 
 Pequena aplicação que contém os seguintes conceitos aplicados:
  - adicionando uma tela tabs
@@ -16,3 +17,4 @@ Pequena aplicação que contém os seguintes conceitos aplicados:
  - navegando entre as tabs
  - adicionando um localStorage para que a página inicial só mostre uma vez.
  - adicionando imagens.png
+####################################################################
