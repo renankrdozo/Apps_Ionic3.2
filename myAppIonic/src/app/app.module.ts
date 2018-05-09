@@ -15,6 +15,7 @@ import {ConfigurationsPageModule} from "../pages/configurations/configurations.m
 import {ProfilePageModule} from "../pages/profile/profile.module";
 import {AboutPageModule} from "../pages/about/about.module";
 import {MovieDetailsPageModule} from "../pages/movie-details/movie-details.module";
+import {CameraPageModule} from "../pages/camera/camera.module";
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import {MovieDetailsPageModule} from "../pages/movie-details/movie-details.modul
     ConfigurationsPageModule,
     ProfilePageModule,
     AboutPageModule,
-    MovieDetailsPageModule
+    MovieDetailsPageModule,
+    CameraPageModule
 
   ],
   bootstrap: [IonicApp],
