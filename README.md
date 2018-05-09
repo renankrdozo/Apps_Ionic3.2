@@ -18,3 +18,12 @@ Pequena aplicação que contém os seguintes conceitos aplicados:
  - adicionando um localStorage para que a página inicial só mostre uma vez.
  - adicionando imagens.png
 ####################################################################
+
+Projeto nutritionistApp
+ Essa aplicação irá conter:
+	- login
+	- recuperação de senha
+	- cadastro de usuário
+	- lista de dicas de postagem da nutricionista
+	- cada usuário com um perfim (foto, name e etc)
+	- persistencia de dados
