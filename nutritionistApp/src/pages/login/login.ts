@@ -6,6 +6,8 @@ import {AngularFireAuth} from "angularfire2/auth";
 import {Users} from "./users";
 import {Constants} from "../../utils/constants";
 import {ChangePasswordPage} from "../change-password/change-password";
+//importando firebase para fazer login com o facebook
+import firebase from "firebase";
 
 
 @Component({
@@ -25,6 +27,18 @@ export class HomePage {
 
   }
 
+  //método abre um pop up para entrar com a conta do facebook
+  public loginWithFacebook() {
+    this.fireAuth.auth.signInWithPopup(new firebase.auth.FacebookAuthProvider()).then(data => {
+      console.log("User facebook : ", data);
+      this.navCtrl.setRoot(DicasPage);
+    }).catch((error: any) => {
+
+
+    });
+  }
+
+
   public login() {
     this.toast = this.createToast();
     console.log("Usuário digitado foi: " + this.email.value);
@@ -41,7 +55,7 @@ export class HomePage {
     });
   }
 
-  public changePassword(){
+  public changePassword() {
     this.navCtrl.push(ChangePasswordPage);
   }
 

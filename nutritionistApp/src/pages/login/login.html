@@ -21,6 +21,10 @@
   </ion-item>
 
   <button class="botao" ion-button block (click)="login()">Logar</button>
+  <button class="botao" ion-button block (click)="loginWithFacebook()" icon-start>
+    <ion-icon ios="logo-facebook" md="logo-facebook"></ion-icon>
+    Login com o Facebook
+  </button>
   <p class="textos"><a (click)="register()">Criar uma conta</a></p>
   <p class="textos"><a (click)="changePassword()">Esqueci minha senha</a></p>
 </ion-content>
