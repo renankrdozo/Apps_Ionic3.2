@@ -12,4 +12,14 @@ export class Constants {
   public ACCOUNT_NOT_ALOWED: string = "Você não tem permissão para cadastrar uma conta!";
   public PASSWORD_WEAK: string = "Essa senha é muito curta!";
 
+  //tipos de erros do firebase para login de usuário
+  public CODE_USER_DISABLED: string = "auth/user-disabled";
+  public CODE_USER_NOT_FOUND: string = "auth/user-not-found";
+  public CODE_PASSWORD_WRONG: string = "auth/wrong-password";
+  //tipos de mensagens para o login do usuário
+  public USER_DISABLE: string = "esse usuário está desativado";
+  public USER_NOT_FOUND: string = "usuário não existe";
+  public PASSWORD_WRONG: string = "sua senha está incorreta";
+
+
 }
