@@ -2,6 +2,7 @@ import {Component, ViewChild} from '@angular/core';
 import {IonicPage, NavController, NavParams, ToastController} from 'ionic-angular';
 import {AngularFireAuth} from "angularfire2/auth";
 import {DicasPage} from "../dicas/dicas";
+import {Constants} from "../../utils/constants";
 
 @IonicPage()
 @Component({
@@ -11,6 +12,9 @@ import {DicasPage} from "../dicas/dicas";
 export class RegisterPage {
   @ViewChild('usuario') email;
   @ViewChild('senha') password;
+  public toast: any;
+  private constants: Constants = new Constants();
+
 
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
@@ -22,27 +26,37 @@ export class RegisterPage {
     console.log('ionViewDidLoad RegisterPage');
   }
 
+  //init toast
+  private createToast() {
+    return this.toastCtrl.create({duration: 3000, position: 'bottom'});
+  }
+
   public register() {
-    let toast = this.toastCtrl.create({duration: 3000, position: 'bottom'});
+    this.toast = this.createToast();
     this.fireAuth.auth.createUserWithEmailAndPassword(this.email.value, this.password.value).then(data => {
-      toast.setMessage("Registrado com sucesso!");
+      this.toast.setMessage("Registrado com sucesso!");
       console.log("dados do usuário : " + data);
-      toast.present();
+      this.toast.present();
       this.navCtrl.setRoot(DicasPage);
     }).catch((error: any) => {
-      //tratando o error no site do firebase
-      if (error.code == "auth/email-already-in-use") {
-        toast.setMessage("O e-mail digitado já existe!");
-      } else if (error.code == "auth/invalid-email") {
-        //teste
-        toast.setMessage("O e-mail digitado não é válido!");
-      } else if (error.code == "auth/operation-not-allowed") {
-        toast.setMessage("Você não tem permissão para cadastrar uma conta!");
-      } else if (error.code == "auth/weak-password") {
-        toast.setMessage("A senha é muito curta!");
-      }
-      toast.present();
+      //tratando os tipos de erro para o cadastro firebase
+      this.responseTypeError(error);
+
     });
+  }
+
+
+  private responseTypeError(error: any) {
+    if (error.code == this.constants.CODE_EMAIL_ALREADY) {
+      this.toast.setMessage(this.constants.EMAIL_ALREADY);
+    } else if (error.code == this.constants.CODE_INVALID_EMAIL) {
+      this.toast.setMessage(this.constants.EMAIL_INVALID);
+    } else if (error.code == this.constants.CODE_NOT_ALLOWED) {
+      this.toast.setMessage(this.constants.ACCOUNT_NOT_ALOWED);
+    } else if (error.code == this.constants.CODE_WEAK_PASSWORD) {
+      this.toast.setMessage(this.constants.PASSWORD_WEAK);
+    }
+    this.toast.present();
   }
 
 }
