@@ -1,15 +1,26 @@
 <ion-content padding>
-  <h2 style="text-align: center">Entrar</h2>
+
+
+  <img class="logo" src="assets/imgs/logoFinal.png">
+
+
   <ion-item>
-    <ion-label stacked>Usuário:</ion-label>
+    <ion-label>
+      <ion-icon ios="ios-person" md="md-person"></ion-icon>
+      Email:
+    </ion-label>
     <ion-input type="text" #usuario></ion-input>
   </ion-item>
 
   <ion-item>
-    <ion-label stacked>Senha:</ion-label>
+    <ion-label>
+      <ion-icon ios="ios-lock" md="md-lock"></ion-icon>
+      Senha:
+    </ion-label>
     <ion-input type="password" #senha></ion-input>
   </ion-item>
 
-  <button ion-button block (click)="login()">Logar</button>
-  <button ion-button block (click)="register()">Cadastrar</button>
+  <button class="botao" ion-button block (click)="login()">Logar</button>
+  <p class="textos"><a (click)="register()">Criar uma conta</a></p>
+  <p class="textos"><a (click)="register()">Esqueci minha senha</a></p>
 </ion-content>
