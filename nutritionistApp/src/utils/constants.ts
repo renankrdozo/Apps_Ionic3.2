@@ -21,5 +21,8 @@ export class Constants {
   public USER_NOT_FOUND: string = "usuário não existe";
   public PASSWORD_WRONG: string = "sua senha está incorreta";
 
+  //logout
+  public MESSAGE_LOGOUT = "Usuário deslogado!"
+
 
 }
