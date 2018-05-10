@@ -10,6 +10,7 @@ import {DicasPageModule} from "../pages/dicas/dicas.module";
 import {AngularFireModule} from 'angularfire2';
 import {AngularFireAuthModule} from 'angularfire2/auth';
 import {RegisterPageModule} from '../pages/register/register.module';
+import {ChangePasswordPageModule} from "../pages/change-password/change-password.module";
 
 
 const firebaseConfig = {
@@ -32,7 +33,8 @@ const firebaseConfig = {
     DicasPageModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireAuthModule,
-    RegisterPageModule
+    RegisterPageModule,
+    ChangePasswordPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

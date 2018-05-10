@@ -23,6 +23,8 @@ export class Constants {
 
   //logout
   public MESSAGE_LOGOUT = "Usuário deslogado!"
+  //redefinir senha
+  public MESSAGE_CHANGE_PASSWORD = "A Solicitação foi enviada para o seu email";
 
 
 }

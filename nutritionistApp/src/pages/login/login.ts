@@ -5,6 +5,7 @@ import {RegisterPage} from "../register/register";
 import {AngularFireAuth} from "angularfire2/auth";
 import {Users} from "./users";
 import {Constants} from "../../utils/constants";
+import {ChangePasswordPage} from "../change-password/change-password";
 
 
 @Component({
@@ -38,6 +39,10 @@ export class HomePage {
     }).catch((error: any) => {
       this.responseTypeErrorLogin(error);
     });
+  }
+
+  public changePassword(){
+    this.navCtrl.push(ChangePasswordPage);
   }
 
   public register() {
