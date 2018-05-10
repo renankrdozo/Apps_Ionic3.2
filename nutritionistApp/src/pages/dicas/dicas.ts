@@ -21,12 +21,25 @@ export class DicasPage {
   public toast: any;
   private constants: Constants = new Constants();
   public email: string;
+  public facebook = {
+    nome: "",
+    fotoUrl: ""
+  }
+  public fotoPerfil: boolean = false;
 
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               public fireAuth: AngularFireAuth,
               public toastCtrl: ToastController) {
     this.email = fireAuth.auth.currentUser.email;
+    this.facebook.nome = fireAuth.auth.currentUser.displayName;
+    this.facebook.fotoUrl = fireAuth.auth.currentUser.photoURL;
+
+    if (this.facebook.fotoUrl == null) {
+      this.fotoPerfil = false;
+    } else {
+      this.fotoPerfil = true;
+    }
   }
 
   ionViewDidLoad() {
