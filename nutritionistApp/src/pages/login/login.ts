@@ -20,7 +20,7 @@ export class HomePage {
   users: Users = new Users();
   @ViewChild('usuario') email;
   @ViewChild('senha') password;
-  //public toast: any;
+
   private constants: Constants = new Constants();
   private responseError: ResponseError = new ResponseError();
 

@@ -20,32 +20,11 @@ import {ToastUtil} from "../../providers/toast-ctrl/toast-util.service";
 export class DicasPage {
 
   private constants: Constants = new Constants();
-  public email: string;
-  public facebook = {
-    nome: "",
-    fotoUrl: ""
-  }
-  public fotoPerfil: boolean = false;
 
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               public fireAuth: AngularFireAuth,
               public toastCtrl: ToastUtil) {
-    this.email = fireAuth.auth.currentUser.email;
-    this.facebook.nome = fireAuth.auth.currentUser.displayName;
-    this.facebook.fotoUrl = fireAuth.auth.currentUser.photoURL;
-
-    if (this.facebook.fotoUrl == null) {
-      this.fotoPerfil = false;
-      console.log("FOTO URL false " + this.facebook.fotoUrl);
-
-    } else {
-      this.fotoPerfil = true;
-    }
-  }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad DicasPage');
   }
 
   public logout() {

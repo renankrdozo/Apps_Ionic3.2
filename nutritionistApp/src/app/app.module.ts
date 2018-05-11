@@ -12,6 +12,7 @@ import {AngularFireAuthModule} from 'angularfire2/auth';
 import {RegisterPageModule} from '../pages/register/register.module';
 import {ChangePasswordPageModule} from "../pages/change-password/change-password.module";
 import {ToastUtil} from '../providers/toast-ctrl/toast-util.service';
+import {ProfilePageModule} from "../pages/profile/profile.module";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAL9CJ3KF5LZbTXKUxpl6SLmRUDnBS-CVs",
@@ -34,7 +35,8 @@ const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireAuthModule,
     RegisterPageModule,
-    ChangePasswordPageModule
+    ChangePasswordPageModule,
+    ProfilePageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
