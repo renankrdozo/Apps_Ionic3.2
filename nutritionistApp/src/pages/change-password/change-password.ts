@@ -2,7 +2,8 @@ import {Component, ViewChild} from '@angular/core';
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
 import {AngularFireAuth} from "angularfire2/auth";
 import {Constants} from "../../utils/constants";
-import {ToastCtrl} from "../../providers/toast-ctrl/toast-ctrl";
+import {ToastUtil} from "../../providers/toast-ctrl/toast-util.service";
+import {ResponseError} from "../../utils/response-error";
 
 /**
  * Generated class for the ChangePasswordPage page.
@@ -21,11 +22,13 @@ export class ChangePasswordPage {
   @ViewChild('usuario') email;
 
   private constants: Constants = new Constants();
+  private responseError: ResponseError = new ResponseError();
+
 
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               public fireAuth: AngularFireAuth,
-              public toastCtrl: ToastCtrl) {
+              public toastCtrl: ToastUtil) {
   }
 
   public ionViewDidLoad() {
@@ -40,19 +43,8 @@ export class ChangePasswordPage {
       //volta para a página anterior.
       this.navCtrl.pop()
     }).catch((error: any) => {
-      this.responseTypeError(error);
+      this.responseError.responseTypeErroChangePassword(error, this.toastCtrl);
     });
-
-
-  }
-
-  private responseTypeError(error: any) {
-    if (error.code == this.constants.CODE_INVALID_EMAIL) {
-      this.toastCtrl.setMessage(this.constants.EMAIL_INVALID);
-    } else if (error.code == this.constants.CODE_USER_NOT_FOUND) {
-      this.toastCtrl.setMessage(this.constants.USER_NOT_FOUND);
-    }
-    this.toastCtrl.present();
   }
 
 }

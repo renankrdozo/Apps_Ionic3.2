@@ -3,7 +3,7 @@ import {IonicPage, NavController, NavParams} from 'ionic-angular';
 import {AngularFireAuth} from "angularfire2/auth";
 import {Constants} from "../../utils/constants";
 import {HomePage} from "../login/login";
-import {ToastCtrl} from "../../providers/toast-ctrl/toast-ctrl";
+import {ToastUtil} from "../../providers/toast-ctrl/toast-util.service";
 
 /**
  * Generated class for the DicasPage page.
@@ -30,7 +30,7 @@ export class DicasPage {
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               public fireAuth: AngularFireAuth,
-              public toastCtrl: ToastCtrl) {
+              public toastCtrl: ToastUtil) {
     this.email = fireAuth.auth.currentUser.email;
     this.facebook.nome = fireAuth.auth.currentUser.displayName;
     this.facebook.fotoUrl = fireAuth.auth.currentUser.photoURL;
