@@ -25,6 +25,7 @@ export class Constants {
   public MESSAGE_LOGOUT = "Usuário deslogado!"
   //redefinir senha
   public MESSAGE_CHANGE_PASSWORD = "A Solicitação foi enviada para o seu email";
+  public USER_LOGIN_SUCCESS = "Usuário logado"
 
 
 }

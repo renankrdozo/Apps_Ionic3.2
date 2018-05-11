@@ -16,7 +16,7 @@
 
   <ion-item *ngIf="fotoPerfil">
     <ion-thumbnail item-start>
-      <img src="{{facebook.fotoUrl}}}">
+      <img [src]=facebook.fotoUrl>
     </ion-thumbnail>
     <h2>{{facebook.nome}}</h2>
     <p>{{email}}</p>

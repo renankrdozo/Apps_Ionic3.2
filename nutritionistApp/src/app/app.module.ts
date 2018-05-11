@@ -11,6 +11,7 @@ import {AngularFireModule} from 'angularfire2';
 import {AngularFireAuthModule} from 'angularfire2/auth';
 import {RegisterPageModule} from '../pages/register/register.module';
 import {ChangePasswordPageModule} from "../pages/change-password/change-password.module";
+import { ToastCtrl } from '../providers/toast-ctrl/toast-ctrl';
 
 
 const firebaseConfig = {
@@ -44,7 +45,8 @@ const firebaseConfig = {
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    ToastCtrl
   ]
 })
 export class AppModule {

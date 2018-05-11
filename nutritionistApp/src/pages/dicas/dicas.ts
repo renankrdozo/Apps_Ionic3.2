@@ -1,8 +1,9 @@
 import {Component} from '@angular/core';
-import {IonicPage, NavController, NavParams, ToastController} from 'ionic-angular';
+import {IonicPage, NavController, NavParams} from 'ionic-angular';
 import {AngularFireAuth} from "angularfire2/auth";
 import {Constants} from "../../utils/constants";
 import {HomePage} from "../login/login";
+import {ToastCtrl} from "../../providers/toast-ctrl/toast-ctrl";
 
 /**
  * Generated class for the DicasPage page.
@@ -18,7 +19,6 @@ import {HomePage} from "../login/login";
 })
 export class DicasPage {
 
-  public toast: any;
   private constants: Constants = new Constants();
   public email: string;
   public facebook = {
@@ -30,13 +30,15 @@ export class DicasPage {
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               public fireAuth: AngularFireAuth,
-              public toastCtrl: ToastController) {
+              public toastCtrl: ToastCtrl) {
     this.email = fireAuth.auth.currentUser.email;
     this.facebook.nome = fireAuth.auth.currentUser.displayName;
     this.facebook.fotoUrl = fireAuth.auth.currentUser.photoURL;
 
     if (this.facebook.fotoUrl == null) {
       this.fotoPerfil = false;
+      console.log("FOTO URL false " + this.facebook.fotoUrl);
+
     } else {
       this.fotoPerfil = true;
     }
@@ -47,17 +49,11 @@ export class DicasPage {
   }
 
   public logout() {
-    this.toast = this.createToast();
+    this.toastCtrl.createToast();
     this.fireAuth.auth.signOut();
-    this.toast.setMessage(this.constants.MESSAGE_LOGOUT);
-    this.toast.present();
+    this.toastCtrl.setMessage(this.constants.MESSAGE_LOGOUT);
+    this.toastCtrl.present();
     this.navCtrl.setRoot(HomePage);
   }
-
-  //init toast
-  private createToast() {
-    return this.toastCtrl.create({duration: 3000, position: 'bottom'});
-  }
-
 
 }
