@@ -15,6 +15,7 @@ import {ToastUtil} from '../providers/toast-ctrl/toast-util.service';
 import {ProfilePageModule} from "../pages/profile/profile.module";
 import {WordpressService} from "../services/wordpress.service";
 import {HttpClientModule} from "@angular/common/http";
+import {PostPageModule} from "../pages/postpage/postpage.module";
 
 
 const firebaseConfig = {
@@ -42,7 +43,8 @@ const firebaseConfig = {
     RegisterPageModule,
     ChangePasswordPageModule,
     ProfilePageModule,
-    HttpClientModule
+    HttpClientModule,
+    PostPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

@@ -5,6 +5,7 @@ import {Constants} from "../../utils/constants";
 import {HomePage} from "../login/login";
 import {ToastUtil} from "../../providers/toast-ctrl/toast-util.service";
 import {WordpressService} from "../../services/wordpress.service";
+import {Postpage} from "../postpage/postpage";
 
 /**
  * Generated class for the DicasPage page.
@@ -23,6 +24,10 @@ export class DicasPage {
   public loader;
   public moreAvailablePage: boolean = true;
   public posts: Array<any> = new Array<any>();
+  public page = 1;
+  public infiniteScroll;
+  public refresher;
+  //public isRefreshing: boolean = false;
 
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
@@ -63,20 +68,63 @@ export class DicasPage {
     this.moreAvailablePage = true;
     if (!(this.posts.length > 0)) {
       this.initLoading();
-      this.wordPress.getRecentPosts().subscribe(res => {
-        const response = (res as any);
-        for (let post of response) {
-          post.excerpt.rendered = post.excerpt.rendered.split('<a')[0] + '<p>';
-          this.posts.push(post);
+      this.wordPress.getRecentPosts(this.page).subscribe(res => {
+          const response = (res as any);
+          for (let post of response) {
+            post.excerpt.rendered = post.excerpt.rendered.split('<a')[0] + '<p>';
+            this.posts.push(post);
+          }
+          console.log("REQUEST recent post");
+          console.log(this.posts);
+          this.closeLoading();
+          // this.completeRefresher();
+        }, error => {
+          console
+            .log(error);
+          this.closeLoading();
+          // this.completeRefresher();
         }
-        console.log("REQUEST recent post");
-        console.log(this.posts);
-
-      });
-      this.closeLoading();
-      console.log(this.posts);
+      );
     }
+  }
 
+  //enviando dado para outra pagina
+  public postTapped(event, post) {
+    this.navCtrl.push(Postpage, {
+      item: post
+    });
+  }
+
+  public doInfinite(infiniteScroll) {
+    let page = (Math.ceil(this.posts.length / 10)) + 1;
+    let loading = true;
+    this.infiniteScroll = infiniteScroll;
+    console.log('infinity scroll');
+    this.wordPress.getRecentPosts(page).subscribe(data => {
+        const response = (data as any);
+        for (let post of response) {
+          if (!loading) {
+            infiniteScroll.complete();
+          } else {
+            this.posts.push(post);
+            loading = false;
+          }
+        }
+      }, error => {
+        this.moreAvailablePage = false;
+        //this.completeRefresher();
+      }
+    );
+  }
+
+  public doRefresh(refresher) {
+    this.refresher = refresher;
+    console.log('Begin async operation', refresher);
+    setTimeout(() => {
+      this.refresher.complete();
+    }, 2000);
+    //this.isRefreshing = true;
+    // this.wordPress.getRecentPosts(this.page);
   }
 
 }

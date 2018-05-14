@@ -13,31 +13,36 @@
 
 
 <ion-content padding>
+<!--adicionando refresh na pagina-->
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
 
-
-  <ion-card>
+  <ion-card *ngFor="let post of posts">
     <div>
-      <img [src]=/>
+      <!--<img [src]="post.better_featured_image.source_url"/>-->
+
     </div>
     <ion-card-content>
-      <ion-card-title>
-        Aqui vai o título
+      <!--o titulo da postagem vem de um html <p>... então usamos [innerHTML]-->
+      <ion-card-title [innerHTML]="post.title.rendered">
+
       </ion-card-title>
-      <p>
-        Breve descrição
-      </p>
+      <!--pegando a descrição tbm em html = innerHTML-->
+      <p [innerHTML]="post.excerpt.rendered"></p>
     </ion-card-content>
 
     <ion-row no-padding>
       <ion-col>
         <button ion-button clear small color="primary" icon-start>
-
+          <!--formatando a date que vem do json-->
+          {{post.date.split('T')[0] | date:'d MMM, y'}}
         </button>
 
       </ion-col>
 
       <ion-col text-right>
-        <button ion-button small color="primary" icon-start>
+        <button ion-button small color="primary" (click)="postTapped($event, post)" icon-start>
           Leia Mais
         </button>
 
@@ -46,6 +51,10 @@
 
     </ion-row>
   </ion-card>
+
+  <ion-infinite-scroll [enabled]="moreAvailablePage" (ionInfinite)="doInfinite($event)">
+    <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Carregando..."></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
 
 
 </ion-content>

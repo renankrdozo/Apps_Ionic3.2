@@ -12,7 +12,7 @@ export class WordpressService {
   public constructor(public httpClient: HttpClient) {
   }
 
-  public getRecentPosts() {
+  public getRecentPosts(page = 1) {
     //return this.httpClient.get(Config.WORDPRESS_REST_URL + 'posts?page=' + page);
     return this.httpClient.get("../../assets/requests.json");
   }
