@@ -13,6 +13,7 @@ import {RegisterPageModule} from '../pages/register/register.module';
 import {ChangePasswordPageModule} from "../pages/change-password/change-password.module";
 import {ToastUtil} from '../providers/toast-ctrl/toast-util.service';
 import {ProfilePageModule} from "../pages/profile/profile.module";
+import {WordpressService} from "../services/wordpress.service";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAL9CJ3KF5LZbTXKUxpl6SLmRUDnBS-CVs",
@@ -22,6 +23,8 @@ const firebaseConfig = {
   storageBucket: "nutritionist-ionic.appspot.com",
   messagingSenderId: "643026165879"
 };
+
+//https://sujeitoprogramador.com/nutriapp/wp-json/wp/v2/posts
 
 @NgModule({
   declarations: [
@@ -47,7 +50,8 @@ const firebaseConfig = {
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    ToastUtil
+    ToastUtil,
+    WordpressService
   ]
 })
 export class AppModule {
