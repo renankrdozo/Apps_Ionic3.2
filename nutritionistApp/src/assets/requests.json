@@ -1,0 +1,1482 @@
+[
+  {
+    "id": 43,
+    "date": "2017-12-08T13:33:46",
+    "date_gmt": "2017-12-08T15:33:46",
+    "guid": {
+      "rendered": "https:\/\/sujeitoprogramador.com\/nutriapp\/?p=43"
+    },
+    "modified": "2017-12-08T13:33:46",
+    "modified_gmt": "2017-12-08T15:33:46",
+    "slug": "refeicoes-proteicas-para-fazer-antes-de-dormir",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/sujeitoprogramador.com\/nutriapp\/refeicoes-proteicas-para-fazer-antes-de-dormir\/",
+    "title": {
+      "rendered": "Refei\u00e7\u00f5es proteicas para fazer antes de dormir"
+    },
+    "content": {
+      "rendered": "<h4>O que acontece com nossos m\u00fasculos quando estamos dormindo<\/h4>\n<p>Muitas pessoas pensam que o ganho de massa muscular ocorre dentro da academia, quando estamos treinando pesado.<\/p>\n<p>O incha\u00e7o do treino e p\u00f3s-treino d\u00e1 a impress\u00e3o que estamos evoluindo, mas isto n\u00e3o passa de volumiza\u00e7\u00e3o celular tempor\u00e1ria e inflama\u00e7\u00e3o causada pelas microfissuras no tecido muscular.<\/p>\n<ol>\n<li>Atum com \u00f3leo de oliva<\/li>\n<li>Queijo cottage com castanhas<\/li>\n<li>\u00a0Iogurte natural, pasta de amendoim e sementes de chia<\/li>\n<li>\u00a0Ovos inteiros e abacate<\/li>\n<li>Salm\u00e3o com br\u00f3colis<\/li>\n<li>Case\u00edna com \u00f3leo de coco<\/li>\n<\/ol>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>O que acontece com nossos m\u00fasculos quando estamos dormindo Muitas pessoas pensam que o ganho de massa muscular ocorre dentro da academia, quando estamos treinando pesado. O incha\u00e7o do treino e p\u00f3s-treino d\u00e1 a impress\u00e3o que estamos evoluindo, mas isto n\u00e3o passa de volumiza\u00e7\u00e3o celular tempor\u00e1ria e inflama\u00e7\u00e3o causada pelas microfissuras no tecido muscular. Atum &hellip; <a href=\"https:\/\/sujeitoprogramador.com\/nutriapp\/refeicoes-proteicas-para-fazer-antes-de-dormir\/\" class=\"more-link\">Continuar lendo <span class=\"screen-reader-text\">Refei\u00e7\u00f5es proteicas para fazer antes de dormir<\/span><\/a><\/p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 44,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "better_featured_image": {
+      "id": 44,
+      "alt_text": "",
+      "caption": "",
+      "description": "",
+      "media_type": "image",
+      "media_details": {
+        "width": 600,
+        "height": 327,
+        "file": "2017\/12\/Screenshot_3-2.jpg",
+        "sizes": {
+          "thumbnail": {
+            "file": "Screenshot_3-2-150x150.jpg",
+            "width": 150,
+            "height": 150,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_3-2-150x150.jpg"
+          },
+          "medium": {
+            "file": "Screenshot_3-2-300x164.jpg",
+            "width": 300,
+            "height": 164,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_3-2-300x164.jpg"
+          }
+        },
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 43,
+      "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_3-2.jpg"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/43"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/types\/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/users\/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/comments?post=43"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/43\/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media\/44"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media?parent=43"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/categories?post=43"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/tags?post=43"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "date": "2017-12-08T13:29:45",
+    "date_gmt": "2017-12-08T15:29:45",
+    "guid": {
+      "rendered": "https:\/\/sujeitoprogramador.com\/nutriapp\/?p=39"
+    },
+    "modified": "2017-12-10T20:59:56",
+    "modified_gmt": "2017-12-10T22:59:56",
+    "slug": "cafeina-bom-ou-ruim",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/sujeitoprogramador.com\/nutriapp\/cafeina-bom-ou-ruim\/",
+    "title": {
+      "rendered": "Cafe\u00edna \u2013 Bom ou Ruim ?"
+    },
+    "content": {
+      "rendered": "<p><strong>Benef\u00edcios da Cafe\u00edna<\/strong><\/p>\n<p>Alguns discutir\u00e3o dizendo que a cafe\u00edna n\u00e3o \u00e9 uma droga. Por\u00e9m, todos os professionais da \u00e1rea m\u00e9dica concordam que o termo \u201cdroga\u201d pode ser usado pra qualquer subst\u00e2ncia capaz de alterar o humor, percep\u00e7\u00e3o e pensamento de uma pessoa, o que \u00e9 o caso da cafe\u00edna. Apesar da sua popularidade, v\u00e1rios cient\u00edstas desde o passado at\u00e9 os dias atuais levantam quest\u00f5es sobre a seguran\u00e7a da cafe\u00edna, se ela \u00e9 ben\u00e9fica ou mal\u00e9fica ao nosso corpo. Quais s\u00e3o os riscos vs. benef\u00edcios para aqueles que consomem cafe\u00edna ?<\/p>\n<p>Estudos comprovam que a cafe\u00edna tem efeitos positivos no sistema respirat\u00f3rio. Ela \u00e9 capaz de reduzir os sintomas da asma. A cafe\u00edna tamb\u00e9m pode gerar um feito muito positivo nos v\u00e1sos sangu\u00edneos do c\u00e9rebro, que quando est\u00e3o dilatados geram dores de cabe\u00e7a, a cafe\u00edna funciona como um constritor desses vasos o que faz com que a dor de cabe\u00e7a v\u00e1 embora.<\/p>\n<p>Beber caf\u00e9 ou bebidas cafeinadas pode reduzir o risco de diabetes tipo 2, esta descoberta tem base em um estudo feito com 126.000 homens e mulheres, os resultados mostraram que pessoas que n\u00e3o tem cafe\u00edna na dieta tem uma maior probabilidade de desenvolver a diabetes tipo 2 do que as pessoas que consomem.<\/p>\n<div><\/div>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Benef\u00edcios da Cafe\u00edna Alguns discutir\u00e3o dizendo que a cafe\u00edna n\u00e3o \u00e9 uma droga. Por\u00e9m, todos os professionais da \u00e1rea m\u00e9dica concordam que o termo \u201cdroga\u201d pode ser usado pra qualquer subst\u00e2ncia capaz de alterar o humor, percep\u00e7\u00e3o e pensamento de uma pessoa, o que \u00e9 o caso da cafe\u00edna. Apesar da sua popularidade, v\u00e1rios cient\u00edstas &hellip; <a href=\"https:\/\/sujeitoprogramador.com\/nutriapp\/cafeina-bom-ou-ruim\/\" class=\"more-link\">Continuar lendo <span class=\"screen-reader-text\">Cafe\u00edna \u2013 Bom ou Ruim ?<\/span><\/a><\/p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 40,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      4,
+      2
+    ],
+    "tags": [],
+    "better_featured_image": {
+      "id": 40,
+      "alt_text": "",
+      "caption": "",
+      "description": "",
+      "media_type": "image",
+      "media_details": {
+        "width": 768,
+        "height": 498,
+        "file": "2017\/12\/Screenshot_2-3.jpg",
+        "sizes": {
+          "thumbnail": {
+            "file": "Screenshot_2-3-150x150.jpg",
+            "width": 150,
+            "height": 150,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_2-3-150x150.jpg"
+          },
+          "medium": {
+            "file": "Screenshot_2-3-300x195.jpg",
+            "width": 300,
+            "height": 195,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_2-3-300x195.jpg"
+          },
+          "medium_large": {
+            "file": "Screenshot_2-3-768x498.jpg",
+            "width": 768,
+            "height": 498,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_2-3-768x498.jpg"
+          }
+        },
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 39,
+      "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_2-3.jpg"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/39"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/types\/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/users\/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/comments?post=39"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/39\/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media\/40"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media?parent=39"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/categories?post=39"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/tags?post=39"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "date": "2017-12-08T13:27:26",
+    "date_gmt": "2017-12-08T15:27:26",
+    "guid": {
+      "rendered": "https:\/\/sujeitoprogramador.com\/nutriapp\/?p=36"
+    },
+    "modified": "2017-12-08T13:27:26",
+    "modified_gmt": "2017-12-08T15:27:26",
+    "slug": "como-perder-barriga-de-uma-vez-por-todas",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/sujeitoprogramador.com\/nutriapp\/como-perder-barriga-de-uma-vez-por-todas\/",
+    "title": {
+      "rendered": "Como Perder Barriga de Uma Vez Por Todas"
+    },
+    "content": {
+      "rendered": "<p><strong>1 \u2013 Esque\u00e7a o Ab-Toner\/AB-Swing e outras porcarias que voc\u00ea viu na TV.<\/strong><br \/>\nEsque\u00e7a todos estes equipamentos que prometem milagres em poucos minutos de exerc\u00edcios realizados por dia. Quando a quest\u00e3o \u00e9 perder gordura abdominal, n\u00e3o existe medida instant\u00e2nea e nem atalhos. N\u00e3o deposite sua esperan\u00e7a nesses produtos e comece a pensar desde j\u00e1 em um plano a longo prazo.<\/p>\n<div><\/div>\n<p><strong>2 \u2013 N\u00e3o Tente Queimar Gordura Localizada<\/strong><br \/>\nO corpo simplesmente n\u00e3o consegue queimar gordura localizada, a n\u00e3o ser que voc\u00ea tenha gen\u00e9tica para queimar mais gordura em uma determinada regi\u00e3o do corpo, do contr\u00e1rio o seu corpo vai queimar calorias como um todo e a gordura do corpo inteiro ser\u00e1 diminuida gradativamente, mas nunca em apenas um lugar s\u00f3. N\u00e3o gaste dinheiro com treinos para queimar gordura localizada e outras porcarias do g\u00eanero.<\/p>\n<p><strong>3 \u2013 Abdominais s\u00e3o \u00f3timos para hipertrofia, mas n\u00e3o para defini\u00e7\u00e3o<\/strong><\/p>\n<p><strong>4 \u2013 Foque seu treino e dieta para perder gordura<\/strong><\/p>\n<p><strong>5 \u2013 Evite \u00e1lcool<\/strong><\/p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>1 \u2013 Esque\u00e7a o Ab-Toner\/AB-Swing e outras porcarias que voc\u00ea viu na TV. Esque\u00e7a todos estes equipamentos que prometem milagres em poucos minutos de exerc\u00edcios realizados por dia. Quando a quest\u00e3o \u00e9 perder gordura abdominal, n\u00e3o existe medida instant\u00e2nea e nem atalhos. N\u00e3o deposite sua esperan\u00e7a nesses produtos e comece a pensar desde j\u00e1 em &hellip; <a href=\"https:\/\/sujeitoprogramador.com\/nutriapp\/como-perder-barriga-de-uma-vez-por-todas\/\" class=\"more-link\">Continuar lendo <span class=\"screen-reader-text\">Como Perder Barriga de Uma Vez Por Todas<\/span><\/a><\/p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 37,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "better_featured_image": {
+      "id": 37,
+      "alt_text": "",
+      "caption": "",
+      "description": "",
+      "media_type": "image",
+      "media_details": {
+        "width": 538,
+        "height": 397,
+        "file": "2017\/12\/Screenshot_8.jpg",
+        "sizes": {
+          "thumbnail": {
+            "file": "Screenshot_8-150x150.jpg",
+            "width": 150,
+            "height": 150,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_8-150x150.jpg"
+          },
+          "medium": {
+            "file": "Screenshot_8-300x221.jpg",
+            "width": 300,
+            "height": 221,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_8-300x221.jpg"
+          }
+        },
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 36,
+      "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_8.jpg"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/36"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/types\/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/users\/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/comments?post=36"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/36\/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media\/37"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media?parent=36"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/categories?post=36"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/tags?post=36"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "date": "2017-12-08T13:24:42",
+    "date_gmt": "2017-12-08T15:24:42",
+    "guid": {
+      "rendered": "https:\/\/sujeitoprogramador.com\/nutriapp\/?p=33"
+    },
+    "modified": "2017-12-08T13:24:42",
+    "modified_gmt": "2017-12-08T15:24:42",
+    "slug": "comer-varias-vezes-ao-dia-acelera-o-metabolismo",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/sujeitoprogramador.com\/nutriapp\/comer-varias-vezes-ao-dia-acelera-o-metabolismo\/",
+    "title": {
+      "rendered": "Comer v\u00e1rias vezes ao dia acelera o metabolismo?"
+    },
+    "content": {
+      "rendered": "<p>Um estudo realizado em 2009 fez com que pessoas obesas fossem aleatoriamente escolhidas para fazer uma dieta de baixa caloria por 8 semanas. Todas as pessoas consumiram a mesma quantidade de calorias, s\u00f3 que um grupo dividiu as calorias em apenas 3 refei\u00e7\u00f5es por dia e o outro em 6 refei\u00e7\u00f5es.<\/p>\n<p>O resultado ? Ambos os grupos perderam a mesma quantidade de peso devido a dieta de baixa caloria.\u00a0<b>N\u00e3o houve diferen\u00e7a<\/b>\u00a0na velocidade da perda de gordura, mudan\u00e7as no metabolismo, apetite ou mudan\u00e7as de horm\u00f4nios devido ao n\u00famero de refei\u00e7\u00f5es(1).<\/p>\n<h3>Conclus\u00e3o<\/h3>\n<p>Enquanto o consumo de calorias manter-se o mesmo, o metabolismo tamb\u00e9m se manter\u00e1, independente da quantidade de refei\u00e7\u00f5es que voc\u00ea fa\u00e7a por dia. Portanto, a id\u00e9ia de comer v\u00e1rias vezes ao dia para acelerar o metabolismo e queimar mais calorias \u00e9 um\u00a0<b>mito<\/b>.<\/p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Um estudo realizado em 2009 fez com que pessoas obesas fossem aleatoriamente escolhidas para fazer uma dieta de baixa caloria por 8 semanas. Todas as pessoas consumiram a mesma quantidade de calorias, s\u00f3 que um grupo dividiu as calorias em apenas 3 refei\u00e7\u00f5es por dia e o outro em 6 refei\u00e7\u00f5es. O resultado ? Ambos &hellip; <a href=\"https:\/\/sujeitoprogramador.com\/nutriapp\/comer-varias-vezes-ao-dia-acelera-o-metabolismo\/\" class=\"more-link\">Continuar lendo <span class=\"screen-reader-text\">Comer v\u00e1rias vezes ao dia acelera o metabolismo?<\/span><\/a><\/p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 34,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "better_featured_image": {
+      "id": 34,
+      "alt_text": "",
+      "caption": "",
+      "description": "",
+      "media_type": "image",
+      "media_details": {
+        "width": 814,
+        "height": 496,
+        "file": "2017\/12\/Screenshot_7.jpg",
+        "sizes": {
+          "thumbnail": {
+            "file": "Screenshot_7-150x150.jpg",
+            "width": 150,
+            "height": 150,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_7-150x150.jpg"
+          },
+          "medium": {
+            "file": "Screenshot_7-300x183.jpg",
+            "width": 300,
+            "height": 183,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_7-300x183.jpg"
+          },
+          "medium_large": {
+            "file": "Screenshot_7-768x468.jpg",
+            "width": 768,
+            "height": 468,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_7-768x468.jpg"
+          }
+        },
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 33,
+      "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_7.jpg"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/33"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/types\/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/users\/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/comments?post=33"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/33\/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media\/34"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media?parent=33"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/categories?post=33"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/tags?post=33"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "date": "2017-12-08T13:23:08",
+    "date_gmt": "2017-12-08T15:23:08",
+    "guid": {
+      "rendered": "https:\/\/sujeitoprogramador.com\/nutriapp\/?p=30"
+    },
+    "modified": "2017-12-08T13:30:14",
+    "modified_gmt": "2017-12-08T15:30:14",
+    "slug": "exercicios-aerobicos-nao-fazem-milagres",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/sujeitoprogramador.com\/nutriapp\/exercicios-aerobicos-nao-fazem-milagres\/",
+    "title": {
+      "rendered": "Exerc\u00edcios aer\u00f3bicos n\u00e3o fazem milagres"
+    },
+    "content": {
+      "rendered": "<p>Muitas pessoas come\u00e7am a fazer aer\u00f3bicos e esperam perder peso de maneira vis\u00edvel, mas mesmo ap\u00f3s v\u00e1rios meses de treino consistente, os resultados s\u00e3o no m\u00e1ximo med\u00edocres ou nulos. O que est\u00e1 acontecendo de errado ?<\/p>\n<p>Nestas situa\u00e7\u00f5es \u00e9 comum pensar que o problema \u00e9 com voc\u00ea, contudo dificilmente \u00e9 o caso, e curiosamente tamb\u00e9m n\u00e3o \u00e9 um\u00a0problema de metabolismo\u00a0ou gen\u00e9tica. \u00c9 simplesmente porque exerc\u00edcios aer\u00f3bicos convencionais n\u00e3o s\u00e3o particularmente efetivos para queimar gordura.<\/p>\n<p>Quando digo exerc\u00edcios aer\u00f3bicos, estou me referindo \u00e0 fazer bicicleta ergom\u00e9trica, correr esteira ou outra atividade do g\u00eanero, que \u00e9 feita por 20 a 60 minutos at\u00e9 tr\u00eas vezes por semana. Independente do que o seu professor lhe falou, este tipo de programa tem um efeito m\u00ednimo na queima de gordura.<\/p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Muitas pessoas come\u00e7am a fazer aer\u00f3bicos e esperam perder peso de maneira vis\u00edvel, mas mesmo ap\u00f3s v\u00e1rios meses de treino consistente, os resultados s\u00e3o no m\u00e1ximo med\u00edocres ou nulos. O que est\u00e1 acontecendo de errado ? Nestas situa\u00e7\u00f5es \u00e9 comum pensar que o problema \u00e9 com voc\u00ea, contudo dificilmente \u00e9 o caso, e curiosamente tamb\u00e9m &hellip; <a href=\"https:\/\/sujeitoprogramador.com\/nutriapp\/exercicios-aerobicos-nao-fazem-milagres\/\" class=\"more-link\">Continuar lendo <span class=\"screen-reader-text\">Exerc\u00edcios aer\u00f3bicos n\u00e3o fazem milagres<\/span><\/a><\/p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 31,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "better_featured_image": {
+      "id": 31,
+      "alt_text": "",
+      "caption": "",
+      "description": "",
+      "media_type": "image",
+      "media_details": {
+        "width": 501,
+        "height": 311,
+        "file": "2017\/12\/Screenshot_6.jpg",
+        "sizes": {
+          "thumbnail": {
+            "file": "Screenshot_6-150x150.jpg",
+            "width": 150,
+            "height": 150,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_6-150x150.jpg"
+          },
+          "medium": {
+            "file": "Screenshot_6-300x186.jpg",
+            "width": 300,
+            "height": 186,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_6-300x186.jpg"
+          }
+        },
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 30,
+      "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_6.jpg"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/30"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/types\/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/users\/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/comments?post=30"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/30\/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media\/31"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media?parent=30"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/categories?post=30"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/tags?post=30"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "date": "2017-12-08T13:21:59",
+    "date_gmt": "2017-12-08T15:21:59",
+    "guid": {
+      "rendered": "https:\/\/sujeitoprogramador.com\/nutriapp\/?p=27"
+    },
+    "modified": "2017-12-08T13:21:59",
+    "modified_gmt": "2017-12-08T15:21:59",
+    "slug": "razoes-comuns-para-voce-estar-falhando-em-perder-peso",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/sujeitoprogramador.com\/nutriapp\/razoes-comuns-para-voce-estar-falhando-em-perder-peso\/",
+    "title": {
+      "rendered": "Raz\u00f5es comuns para voc\u00ea estar falhando em perder peso"
+    },
+    "content": {
+      "rendered": "<ol>\n<li>Contar calorias \u201cmentalmente\u201d<\/li>\n<li>Achar que atividade aer\u00f3bica \u00e9 a solu\u00e7\u00e3o divina<\/li>\n<li>\u00a0Culpar o \u201cmetabolismo lento\u201d : Pessoas que sofrem com problemas hormonais que afetam o metabolismo s\u00e3o minoria, e o diagn\u00f3stico do problema s\u00f3 poder ser descoberto atrav\u00e9s de exames laboratoriais. Muitas pessoas s\u00e3o simplesmente pregui\u00e7osas e usam a carta do \u201cmetabolismo lento\u201d para n\u00e3o correr atr\u00e1s dos seus objetivos. Ironicamente, quanto mais peso uma pessoa tem, mais r\u00e1pido tende a ser o metabolismo(3). Quanto mais gordura acumulada, mais peso extra voc\u00ea carrega, e portanto, mais energia \u00e9 gasta.<\/li>\n<\/ol>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Contar calorias \u201cmentalmente\u201d Achar que atividade aer\u00f3bica \u00e9 a solu\u00e7\u00e3o divina \u00a0Culpar o \u201cmetabolismo lento\u201d : Pessoas que sofrem com problemas hormonais que afetam o metabolismo s\u00e3o minoria, e o diagn\u00f3stico do problema s\u00f3 poder ser descoberto atrav\u00e9s de exames laboratoriais. Muitas pessoas s\u00e3o simplesmente pregui\u00e7osas e usam a carta do \u201cmetabolismo lento\u201d para n\u00e3o &hellip; <a href=\"https:\/\/sujeitoprogramador.com\/nutriapp\/razoes-comuns-para-voce-estar-falhando-em-perder-peso\/\" class=\"more-link\">Continuar lendo <span class=\"screen-reader-text\">Raz\u00f5es comuns para voc\u00ea estar falhando em perder peso<\/span><\/a><\/p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 28,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "better_featured_image": {
+      "id": 28,
+      "alt_text": "",
+      "caption": "",
+      "description": "",
+      "media_type": "image",
+      "media_details": {
+        "width": 859,
+        "height": 658,
+        "file": "2017\/12\/Screenshot_5.jpg",
+        "sizes": {
+          "thumbnail": {
+            "file": "Screenshot_5-150x150.jpg",
+            "width": 150,
+            "height": 150,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_5-150x150.jpg"
+          },
+          "medium": {
+            "file": "Screenshot_5-300x230.jpg",
+            "width": 300,
+            "height": 230,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_5-300x230.jpg"
+          },
+          "medium_large": {
+            "file": "Screenshot_5-768x588.jpg",
+            "width": 768,
+            "height": 588,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_5-768x588.jpg"
+          },
+          "post-thumbnail": {
+            "file": "Screenshot_5-825x510.jpg",
+            "width": 825,
+            "height": 510,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_5-825x510.jpg"
+          }
+        },
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 27,
+      "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_5.jpg"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/27"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/types\/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/users\/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/comments?post=27"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/27\/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media\/28"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media?parent=27"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/categories?post=27"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/tags?post=27"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "date": "2017-12-08T13:18:48",
+    "date_gmt": "2017-12-08T15:18:48",
+    "guid": {
+      "rendered": "https:\/\/sujeitoprogramador.com\/nutriapp\/?p=24"
+    },
+    "modified": "2017-12-08T13:18:48",
+    "modified_gmt": "2017-12-08T15:18:48",
+    "slug": "jejum-intermitente-funciona-mesmo",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/sujeitoprogramador.com\/nutriapp\/jejum-intermitente-funciona-mesmo\/",
+    "title": {
+      "rendered": "Jejum intermitente funciona mesmo ?"
+    },
+    "content": {
+      "rendered": "<p>De uma maneira geral, a melhor maneira para evitar roubadas no mundo da muscula\u00e7\u00e3o, \u00e9 evitar descobertas recentes que prometem mundos e fundos na perda de gordura e ganho de massa muscular.<\/p>\n<p>Coma de maneira saud\u00e1vel, regule a ingest\u00e3o de calorias, treine pesado, evite treinos e dietas mirabolantes e voc\u00ea estar\u00e1 no caminho certo para mudar o corpo.<\/p>\n<p>Contudo de vez em quando surgem descobertas que realmente vieram para contribuir com o seu objetivo:<\/p>\n<ul>\n<li>Por muito tempo acreditamos que gorduras saturadas aumentavam o risco de doen\u00e7as card\u00edacos. Agora sabemos que as coisas n\u00e3o s\u00e3o bem assim (1).<\/li>\n<li>Antes acredit\u00e1vamos que dietas com alta ingest\u00e3o de prote\u00ednas destruiriam nossos rins. Al\u00e9m disso\u00a0<em>n\u00e3o<\/em>\u00a0acontecer (2), a pr\u00e1tica ainda tem seus benef\u00edcios (3)<\/li>\n<\/ul>\n<p>Por exemplo, fazer jejum (n\u00e3o comer nada) por 16 horas, e comer nas \u00faltimas 8 horas restantes do dia. Ou jejuar por 20 horas e comer nas 4 restantes. Alguns protocolos sugerem at\u00e9 comer normalmente por um dia e fazer jejum no dia seguinte (no dia inteiro).<\/p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>De uma maneira geral, a melhor maneira para evitar roubadas no mundo da muscula\u00e7\u00e3o, \u00e9 evitar descobertas recentes que prometem mundos e fundos na perda de gordura e ganho de massa muscular. Coma de maneira saud\u00e1vel, regule a ingest\u00e3o de calorias, treine pesado, evite treinos e dietas mirabolantes e voc\u00ea estar\u00e1 no caminho certo para &hellip; <a href=\"https:\/\/sujeitoprogramador.com\/nutriapp\/jejum-intermitente-funciona-mesmo\/\" class=\"more-link\">Continuar lendo <span class=\"screen-reader-text\">Jejum intermitente funciona mesmo ?<\/span><\/a><\/p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 25,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "better_featured_image": {
+      "id": 25,
+      "alt_text": "",
+      "caption": "",
+      "description": "",
+      "media_type": "image",
+      "media_details": {
+        "width": 592,
+        "height": 335,
+        "file": "2017\/12\/Screenshot_4.jpg",
+        "sizes": {
+          "thumbnail": {
+            "file": "Screenshot_4-150x150.jpg",
+            "width": 150,
+            "height": 150,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_4-150x150.jpg"
+          },
+          "medium": {
+            "file": "Screenshot_4-300x170.jpg",
+            "width": 300,
+            "height": 170,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_4-300x170.jpg"
+          }
+        },
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 24,
+      "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_4.jpg"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/24"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/types\/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/users\/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/comments?post=24"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/24\/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media\/25"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media?parent=24"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/categories?post=24"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/tags?post=24"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "date": "2017-12-08T13:16:52",
+    "date_gmt": "2017-12-08T15:16:52",
+    "guid": {
+      "rendered": "https:\/\/sujeitoprogramador.com\/nutriapp\/?p=21"
+    },
+    "modified": "2017-12-10T20:59:31",
+    "modified_gmt": "2017-12-10T22:59:31",
+    "slug": "5-sugestoes-anabolicas-e-rapidas",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/sujeitoprogramador.com\/nutriapp\/5-sugestoes-anabolicas-e-rapidas\/",
+    "title": {
+      "rendered": "5 sugest\u00f5es anab\u00f3licas e r\u00e1pidas"
+    },
+    "content": {
+      "rendered": "<p>Antes do pr\u00e9-treino \u00e9 interessante optar por fontes de prote\u00ednas e carboidratos de<strong>\u00a0lenta absor\u00e7\u00e3o.<\/strong><\/p>\n<p>Desta forma o corpo estar\u00e1 recebendo um fluxo gradativo e constante de nutrientes que abastecer\u00e3o o corpo antes, durante e at\u00e9 depois do treino.<\/p>\n<p>Alguns exemplos de prote\u00edna de absor\u00e7\u00e3o lenta:<\/p>\n<ul>\n<li>Peito de frango;<\/li>\n<li>Carne mo\u00edda;<\/li>\n<li>Fil\u00e9 de til\u00e1pia;<\/li>\n<li>Ovos inteiros;<\/li>\n<li>Pasta de amendoim;<\/li>\n<li>Queijo cottage;<\/li>\n<li>Iogurte natural;<\/li>\n<li>Case\u00edna.<\/li>\n<\/ul>\n<p>Alguns exemplos de carboidratos de absor\u00e7\u00e3o lenta:<\/p>\n<ul>\n<li>Batata doce;<\/li>\n<li>Aveia;<\/li>\n<li>Arroz integral;<\/li>\n<li>Frutas como banana.<\/li>\n<\/ul>\n<p>O\u00a0<em>timing<\/em>\u00a0da refei\u00e7\u00e3o tamb\u00e9m \u00e9 importante.<\/p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Antes do pr\u00e9-treino \u00e9 interessante optar por fontes de prote\u00ednas e carboidratos de\u00a0lenta absor\u00e7\u00e3o. Desta forma o corpo estar\u00e1 recebendo um fluxo gradativo e constante de nutrientes que abastecer\u00e3o o corpo antes, durante e at\u00e9 depois do treino. Alguns exemplos de prote\u00edna de absor\u00e7\u00e3o lenta: Peito de frango; Carne mo\u00edda; Fil\u00e9 de til\u00e1pia; Ovos inteiros; &hellip; <a href=\"https:\/\/sujeitoprogramador.com\/nutriapp\/5-sugestoes-anabolicas-e-rapidas\/\" class=\"more-link\">Continuar lendo <span class=\"screen-reader-text\">5 sugest\u00f5es anab\u00f3licas e r\u00e1pidas<\/span><\/a><\/p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 22,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      4,
+      2
+    ],
+    "tags": [],
+    "better_featured_image": {
+      "id": 22,
+      "alt_text": "",
+      "caption": "",
+      "description": "",
+      "media_type": "image",
+      "media_details": {
+        "width": 701,
+        "height": 390,
+        "file": "2017\/12\/Screenshot_3-1.jpg",
+        "sizes": {
+          "thumbnail": {
+            "file": "Screenshot_3-1-150x150.jpg",
+            "width": 150,
+            "height": 150,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_3-1-150x150.jpg"
+          },
+          "medium": {
+            "file": "Screenshot_3-1-300x167.jpg",
+            "width": 300,
+            "height": 167,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_3-1-300x167.jpg"
+          }
+        },
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 21,
+      "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_3-1.jpg"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/21"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/types\/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/users\/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/comments?post=21"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/21\/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media\/22"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media?parent=21"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/categories?post=21"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/tags?post=21"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "date": "2017-12-08T13:15:41",
+    "date_gmt": "2017-12-08T15:15:41",
+    "guid": {
+      "rendered": "https:\/\/sujeitoprogramador.com\/nutriapp\/?p=18"
+    },
+    "modified": "2017-12-08T13:15:41",
+    "modified_gmt": "2017-12-08T15:15:41",
+    "slug": "batata-doce-antes-de-dormir-sim-ou-nao",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/sujeitoprogramador.com\/nutriapp\/batata-doce-antes-de-dormir-sim-ou-nao\/",
+    "title": {
+      "rendered": "Batata doce antes de dormir \u2013 sim ou n\u00e3o ?"
+    },
+    "content": {
+      "rendered": "<h4>Benef\u00edcios da batata doce antes de dormir<\/h4>\n<h4>Melhora na qualidade do sono<\/h4>\n<p>Ingerir batata doce antes de dormir, ou qualquer outro carboidrato complexo, amplifica a produ\u00e7\u00e3o do horm\u00f4nio melatonina e inibi a produ\u00e7\u00e3o do horm\u00f4nio cortisol.<\/p>\n<p>Ambos possuem grande influ\u00eancia na qualidade do seu sono.<\/p>\n<p>Para quem n\u00e3o sabe, a melatonina \u00e9 o horm\u00f4nio que o corpo produz preferencialmente a noite para nos avisar que est\u00e1 na hora de dormir, \u00e9 basicamente o que faz voc\u00ea ficar sonolento e dormir.<\/p>\n<p>E quando ingerimos carboidratos a noite, como a batata doce, amplificamos a produ\u00e7\u00e3o de melatonina, o que pode melhorar a qualidade do seu sono.<\/p>\n<h4>Mais anabolismo DURANTE o sono<\/h4>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Benef\u00edcios da batata doce antes de dormir Melhora na qualidade do sono Ingerir batata doce antes de dormir, ou qualquer outro carboidrato complexo, amplifica a produ\u00e7\u00e3o do horm\u00f4nio melatonina e inibi a produ\u00e7\u00e3o do horm\u00f4nio cortisol. Ambos possuem grande influ\u00eancia na qualidade do seu sono. Para quem n\u00e3o sabe, a melatonina \u00e9 o horm\u00f4nio que &hellip; <a href=\"https:\/\/sujeitoprogramador.com\/nutriapp\/batata-doce-antes-de-dormir-sim-ou-nao\/\" class=\"more-link\">Continuar lendo <span class=\"screen-reader-text\">Batata doce antes de dormir \u2013 sim ou n\u00e3o ?<\/span><\/a><\/p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 19,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "better_featured_image": {
+      "id": 19,
+      "alt_text": "",
+      "caption": "",
+      "description": "",
+      "media_type": "image",
+      "media_details": {
+        "width": 499,
+        "height": 333,
+        "file": "2017\/12\/Screenshot_2-2.jpg",
+        "sizes": {
+          "thumbnail": {
+            "file": "Screenshot_2-2-150x150.jpg",
+            "width": 150,
+            "height": 150,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_2-2-150x150.jpg"
+          },
+          "medium": {
+            "file": "Screenshot_2-2-300x200.jpg",
+            "width": 300,
+            "height": 200,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_2-2-300x200.jpg"
+          }
+        },
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 18,
+      "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_2-2.jpg"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/18"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/types\/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/users\/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/comments?post=18"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/18\/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media\/19"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media?parent=18"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/categories?post=18"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/tags?post=18"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "date": "2017-12-07T19:18:07",
+    "date_gmt": "2017-12-07T21:18:07",
+    "guid": {
+      "rendered": "https:\/\/sujeitoprogramador.com\/nutriapp\/?p=15"
+    },
+    "modified": "2017-12-07T19:18:07",
+    "modified_gmt": "2017-12-07T21:18:07",
+    "slug": "o-que-comer-para-ganhar-massa-magra",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/sujeitoprogramador.com\/nutriapp\/o-que-comer-para-ganhar-massa-magra\/",
+    "title": {
+      "rendered": "O que comer para ganhar massa magra"
+    },
+    "content": {
+      "rendered": "<p>Refei\u00e7\u00e3o 1: Shake hipercal\u00f3rico<\/p>\n<p>Refei\u00e7\u00e3o 2: Panqueca proteica<\/p>\n<p>Refei\u00e7\u00e3o 3: Frango com batata doce<\/p>\n<p>Refei\u00e7\u00e3o 4: P\u00e3o integral com hamb\u00farguer caseiro<\/p>\n<p>Refei\u00e7\u00e3o 5: Mais frango com batata doce<\/p>\n<p>Refei\u00e7\u00e3o 6: Mais um shake hipercal\u00f3rico<\/p>\n<p>O plano alimentar descrito no texto serve apenas para ilustrar como \u00e9 f\u00e1cil se alimentar corretamente para hipertrofia, e \u00e9\u00a0<strong>adapt\u00e1vel<\/strong>\u00a0para todos que buscam este objetivo.<\/p>\n<p>Mas as quantidades de calorias e nutrientes inevitavelmente v\u00e3o variar de pessoa para pessoa.<\/p>\n<p>Ainda ser\u00e1 preciso\u00a0calcular quantas prote\u00ednas voc\u00ea precisa ingerir\u00a0e principalmente\u00a0quantas calorias voc\u00ea precisa ingerir\u00a0todos os dias.<\/p>\n<p>Muitos sites sobre muscula\u00e7\u00e3o oferecem dietas prontas e ainda prometendo quantos quilos ser\u00e1 poss\u00edvel ganhar com aquela alimenta\u00e7\u00e3o.<\/p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Refei\u00e7\u00e3o 1: Shake hipercal\u00f3rico Refei\u00e7\u00e3o 2: Panqueca proteica Refei\u00e7\u00e3o 3: Frango com batata doce Refei\u00e7\u00e3o 4: P\u00e3o integral com hamb\u00farguer caseiro Refei\u00e7\u00e3o 5: Mais frango com batata doce Refei\u00e7\u00e3o 6: Mais um shake hipercal\u00f3rico O plano alimentar descrito no texto serve apenas para ilustrar como \u00e9 f\u00e1cil se alimentar corretamente para hipertrofia, e \u00e9\u00a0adapt\u00e1vel\u00a0para todos &hellip; <a href=\"https:\/\/sujeitoprogramador.com\/nutriapp\/o-que-comer-para-ganhar-massa-magra\/\" class=\"more-link\">Continuar lendo <span class=\"screen-reader-text\">O que comer para ganhar massa magra<\/span><\/a><\/p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 16,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "better_featured_image": {
+      "id": 16,
+      "alt_text": "",
+      "caption": "",
+      "description": "",
+      "media_type": "image",
+      "media_details": {
+        "width": 631,
+        "height": 372,
+        "file": "2017\/12\/Screenshot_3.jpg",
+        "sizes": {
+          "thumbnail": {
+            "file": "Screenshot_3-150x150.jpg",
+            "width": 150,
+            "height": 150,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_3-150x150.jpg"
+          },
+          "medium": {
+            "file": "Screenshot_3-300x177.jpg",
+            "width": 300,
+            "height": 177,
+            "mime-type": "image\/jpeg",
+            "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_3-300x177.jpg"
+          }
+        },
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 15,
+      "source_url": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-content\/uploads\/2017\/12\/Screenshot_3.jpg"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/15"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/types\/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/users\/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/comments?post=15"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/posts\/15\/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media\/16"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/media?parent=15"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/categories?post=15"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https:\/\/sujeitoprogramador.com\/nutriapp\/wp-json\/wp\/v2\/tags?post=15"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

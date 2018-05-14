@@ -14,6 +14,8 @@ import {ChangePasswordPageModule} from "../pages/change-password/change-password
 import {ToastUtil} from '../providers/toast-ctrl/toast-util.service';
 import {ProfilePageModule} from "../pages/profile/profile.module";
 import {WordpressService} from "../services/wordpress.service";
+import {HttpClientModule} from "@angular/common/http";
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyAL9CJ3KF5LZbTXKUxpl6SLmRUDnBS-CVs",
@@ -39,7 +41,8 @@ const firebaseConfig = {
     AngularFireAuthModule,
     RegisterPageModule,
     ChangePasswordPageModule,
-    ProfilePageModule
+    ProfilePageModule,
+    HttpClientModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
