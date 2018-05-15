@@ -3,6 +3,7 @@ import {IonicPage, NavController, NavParams} from 'ionic-angular';
 import {Constants} from "../../utils/constants";
 import {ToastUtil} from "../../providers/toast-ctrl/toast-util.service";
 import {AngularFireAuth} from "angularfire2/auth";
+import {HomePage} from "../login/login";
 
 /**
  * Generated class for the ProfilePage page.
@@ -24,6 +25,7 @@ export class ProfilePage {
     fotoUrl: ""
   }
   public fotoPerfil: boolean = false;
+  private constants: Constants = new Constants();
 
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
@@ -43,8 +45,12 @@ export class ProfilePage {
     }
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ProfilePage');
+  public logout() {
+    this.toastCtrl.createToast();
+    this.fireAuth.auth.signOut();
+    this.toastCtrl.setMessage(this.constants.MESSAGE_LOGOUT);
+    this.toastCtrl.present();
+    this.navCtrl.setRoot(HomePage);
   }
 
 }

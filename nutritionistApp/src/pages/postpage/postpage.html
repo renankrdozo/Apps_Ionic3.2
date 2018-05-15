@@ -1,7 +1,12 @@
 <ion-header color="primary">
 
-  <ion-navbar>
-    <ion-title *ngIf="post">Post</ion-title>
+  <ion-navbar color="primary">
+    <ion-title *ngIf="post">Postagens</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="logout()">Logout
+        <ion-icon class="toolbar-icon" name="log-out"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 
 </ion-header>
