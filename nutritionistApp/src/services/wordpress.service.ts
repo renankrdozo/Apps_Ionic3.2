@@ -13,8 +13,8 @@ export class WordpressService {
   }
 
   public getRecentPosts(page: number = 1) {
-    return this.httpClient.get(Config.WORDPRESS_REST_URL + 'posts?page=' + page);
-    //return this.httpClient.get("../../assets/requests.json");
+    //return this.httpClient.get(Config.WORDPRESS_REST_URL + 'posts?page=' + page);
+    return this.httpClient.get("../../assets/requestRestaurantes.json");
   }
 
   public getAuthor(author) {

@@ -66,10 +66,11 @@ export class DicasPage {
 
   public getRecentPosts() {
     this.moreAvailablePage = true;
-    if (!this.posts.length > 0) {
+    if (!(this.posts.length > 0)) {
       this.initLoading();
       this.wordPress.getRecentPosts().subscribe(res => {
         const response = (res as any);
+        console.log("JSONNNN",response);
         for (let post of response) {
           post.excerpt.rendered = post.excerpt.rendered.split('<a')[0] + '<p>';
           this.posts.push(post);
@@ -95,41 +96,22 @@ export class DicasPage {
 
   //enviando dado para outra pagina
   public postTapped(event, post) {
-    this.navCtrl.push(Postpage, {
-      item: post
-    });
+    // this.navCtrl.push(Postpage, {
+    //   item: post
+    // });
   }
 
-  public doInfinite(infiniteScroll) {
-    let page = (Math.ceil(this.posts.length / 10)) + 1;
-    let loading = true;
-    this.infiniteScroll = infiniteScroll;
-    console.log('infinity scroll');
-    this.wordPress.getRecentPosts(page).subscribe(data => {
-        const response = (data as any);
-        for (let post of response) {
-          if (!loading) {
-            this.infiniteScroll.complete();
-          } else {
-            this.posts.push(post);
-            loading = false;
-          }
-        }
-      }, error => {
-        this.moreAvailablePage = false;
-      }
-    );
-  }
 
-  public doRefresh(refresher) {
-    this.refresher = refresher;
-    console.log('Begin async operation', refresher);
-    setTimeout(() => {
-      this.refresher.complete();
-    }, 2000);
-    //this.isRefreshing = true;
-    // this.wordPress.getRecentPosts(this.page);
-  }
+
+  // public doRefresh(refresher) {
+  //   this.refresher = refresher;
+  //   console.log('Begin async operation', refresher);
+  //   setTimeout(() => {
+  //     this.refresher.complete();
+  //   }, 2000);
+  //   //this.isRefreshing = true;
+  //   // this.wordPress.getRecentPosts(this.page);
+  // }
 
 
   //método inicial que faz o refresh na página de filmes

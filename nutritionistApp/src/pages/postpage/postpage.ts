@@ -30,12 +30,8 @@ export class Postpage {
   let loading = this.loadCtrl.create();
   loading.present();
   this.post = this.navParams.get("item");
-  Observable.forkJoin(this.getAuthorData(),
-  this.getCategories()).subscribe(data =>{
-    this.user = data[0].name;
-    this.categories = data[1];
-    loading.dismiss();
-  })
+  console.log(this.post);
+
 }
 
 public getAuthorData(){

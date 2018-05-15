@@ -20,12 +20,12 @@ import {ChatPageModule} from "../pages/chat/chat.module";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAL9CJ3KF5LZbTXKUxpl6SLmRUDnBS-CVs",
-  authDomain: "nutritionist-ionic.firebaseapp.com",
-  databaseURL: "https://nutritionist-ionic.firebaseio.com",
-  projectId: "nutritionist-ionic",
-  storageBucket: "nutritionist-ionic.appspot.com",
-  messagingSenderId: "643026165879"
+  apiKey: "AIzaSyA4J0lxdIaYf9Az8sHKaN2SiA7HXER9SpA",
+  authDomain: "deliveryapp-5aef4.firebaseapp.com",
+  databaseURL: "https://deliveryapp-5aef4.firebaseio.com",
+  projectId: "deliveryapp-5aef4",
+  storageBucket: "deliveryapp-5aef4.appspot.com",
+  messagingSenderId: "133283939270"
 };
 
 //https://sujeitoprogramador.com/nutriapp/wp-json/wp/v2/posts
