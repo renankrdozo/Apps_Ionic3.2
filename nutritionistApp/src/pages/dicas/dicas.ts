@@ -27,7 +27,7 @@ export class DicasPage {
   public page = 1;
   public infiniteScroll;
   public refresher;
-  //public isRefreshing: boolean = false;
+  public isRefreshing: boolean = false;
 
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
@@ -54,7 +54,7 @@ export class DicasPage {
   //iniciando loading na página
   public initLoading() {
     this.loader = this.loadCtrl.create({
-      content: "Please wait...",
+      content: "Por favor, aguarde...",
     });
     this.loader.present();
   }
@@ -66,7 +66,7 @@ export class DicasPage {
 
   public getRecentPosts() {
     this.moreAvailablePage = true;
-    if (!this.posts.length > 0) {
+    if (!(this.posts.length > 0)) {
       this.initLoading();
       this.wordPress.getRecentPosts().subscribe(res => {
         const response = (res as any);
@@ -121,15 +121,15 @@ export class DicasPage {
     );
   }
 
-  public doRefresh(refresher) {
-    this.refresher = refresher;
-    console.log('Begin async operation', refresher);
-    setTimeout(() => {
-      this.refresher.complete();
-    }, 2000);
-    //this.isRefreshing = true;
-    // this.wordPress.getRecentPosts(this.page);
-  }
+  // public doRefresh(refresher) {
+  //   this.refresher = refresher;
+  //   console.log('Begin async operation', refresher);
+  //   setTimeout(() => {
+  //     this.refresher.complete();
+  //   }, 2000);
+  //   //this.isRefreshing = true;
+  //   // this.wordPress.getRecentPosts(this.page);
+  // }
 
 
   //método inicial que faz o refresh na página de filmes

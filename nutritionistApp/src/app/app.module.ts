@@ -17,6 +17,7 @@ import {WordpressService} from "../services/wordpress.service";
 import {HttpClientModule} from "@angular/common/http";
 import {PostPageModule} from "../pages/postpage/postpage.module";
 import {ChatPageModule} from "../pages/chat/chat.module";
+import {TabsPageModule} from "../pages/tabs/tabs.module";
 
 
 const firebaseConfig = {
@@ -46,7 +47,8 @@ const firebaseConfig = {
     ProfilePageModule,
     HttpClientModule,
     PostPageModule,
-    ChatPageModule
+    ChatPageModule,
+    TabsPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

@@ -5,6 +5,7 @@ import {SplashScreen} from "@ionic-native/splash-screen";
 import {HomePage} from "../pages/login/login";
 import {AngularFireAuth} from "angularfire2/auth";
 import {DicasPage} from "../pages/dicas/dicas";
+import {TabsPage} from "../pages/tabs/tabs";
 
 @Component({
   templateUrl: 'app.html'
@@ -31,8 +32,8 @@ export class MyApp {
   //verificando se o usuário esta logado para não exibir a tela de login.
   private checkingLoggedInUser(users: any, authObserver: any) {
     if (users) {
-     // this.rootPage = DicasPage;
-     this.rootPage = DicasPage;
+      // this.rootPage = DicasPage;
+      this.rootPage = TabsPage;
       authObserver.unsubscribe();
     } else {
       this.rootPage = HomePage;

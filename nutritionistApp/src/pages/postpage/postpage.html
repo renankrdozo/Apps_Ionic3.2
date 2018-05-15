@@ -1,31 +1,40 @@
-
 <ion-header color="primary">
 
   <ion-navbar>
-    <ion-title>post</ion-title>
+    <ion-title *ngIf="post">Post</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
 
-  <div>
-    <img [src]="post.better_featured_image.source_url" class="imgTopo"/>
+  <div *ngIf="post">
+    <div>
+      <img [src]="post.better_featured_image.source_url" class="imgTopo"/>
+    </div>
+
+    <div class="post-title" [innerHTML]="post.title.rendered" padding></div>
+    <p class="post-content" [innerHTML]="post.content.rendered" padding></p>
+
+    <ion-row>
+      <ion-col>
+        <ion-icon ios="ios-calendar" md="md-calendar"></ion-icon>
+        {{post.date.split('T')[0] | date:'d MMM, y'}}
+      </ion-col>
+
+      <ion-col text-right>
+        <ion-icon ios="ios-person" md="md-person"></ion-icon>
+        {{user}}
+      </ion-col>
+    </ion-row>
+
+    <p class="bold-title">Categoria:</p>
+    <ion-grid>
+      <ion-row class="category-col" *ngFor="let category of categories">
+        <ion-badge>{{category.name}}</ion-badge>
+        <ion-col></ion-col>
+      </ion-row>
+    </ion-grid>
   </div>
-
-  <div [innerHTML]="post.title.rendered"></div>
-  <p [innerHTML]="post.content.rendered"></p>
-
-  <ion-row>
-    <ion-col>
-      <ion-icon ios="ios-calendar" md="md-calendar"></ion-icon>
-      {{post.date.split('T')[0] | date:'d MMM, y'}}
-    </ion-col>
-
-    <ion-col>
-      <ion-icon ios="ios-person" md="md-person"></ion-icon>
-      {{user}}
-    </ion-col>
-  </ion-row>
 </ion-content>

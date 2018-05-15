@@ -1,9 +1,9 @@
 import {Component, ViewChild} from '@angular/core';
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
 import {AngularFireAuth} from "angularfire2/auth";
-import {DicasPage} from "../dicas/dicas";
 import {ToastUtil} from "../../providers/toast-ctrl/toast-util.service";
 import {ResponseError} from "../../utils/response-error";
+import {TabsPage} from "../tabs/tabs";
 
 @IonicPage()
 @Component({
@@ -14,18 +14,33 @@ export class RegisterPage {
   @ViewChild('usuario') email;
   @ViewChild('senha') password;
   private responseError: ResponseError = new ResponseError();
-
+  public tabBarElement: any;
 
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               public fireAuth: AngularFireAuth,
               public toastCtrl: ToastUtil) {
+    this.tabBarElement = document.querySelector('.show-tabbar');
   }
 
-  public ionViewDidLoad() {
-    console.log('ionViewDidLoad RegisterPage');
+  //para eliminar a página de tabs assim que entrar nessa página
+  public ionViewDidEnter() {
+    this.cleanToTabPage();
   }
 
+  //para eliminar a página de tabs quando fazer logout
+  public ionViewWillLeave() {
+    this.cleanToTabPage();
+  }
+
+  public cleanToTabPage() {
+    let tabs = document.querySelectorAll('.show-tabbar');
+    if (tabs !== null) {
+      Object.keys(tabs).map((key) => {
+        tabs[key].style.display = 'none';
+      });
+    }
+  }
 
   public register() {
     this.toastCtrl.createToast();
@@ -33,7 +48,7 @@ export class RegisterPage {
       this.toastCtrl.setMessage("Registrado com sucesso!");
       console.log("dados do usuário : " + data);
       this.toastCtrl.present();
-      this.navCtrl.setRoot(DicasPage);
+      this.navCtrl.setRoot(TabsPage);
     }).catch((error: any) => {
       //tratando os tipos de erro para o cadastro firebase
       this.responseError.responseTypeErrorRegister(error, this.toastCtrl)

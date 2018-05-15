@@ -26,6 +26,8 @@ export class Constants {
   //redefinir senha
   public MESSAGE_CHANGE_PASSWORD = "A Solicitação foi enviada para o seu email";
   public USER_LOGIN_SUCCESS = "Usuário logado"
+  //login visitant
+  public LOGIN_VISITOR = "Login visitante habilitado";
 
 
 }

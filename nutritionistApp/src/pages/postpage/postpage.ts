@@ -26,25 +26,27 @@ export class Postpage {
     this.getItemData();
   }
 
-  public getItemData(){
-  let loading = this.loadCtrl.create();
-  loading.present();
-  this.post = this.navParams.get("item");
-  Observable.forkJoin(this.getAuthorData(),
-  this.getCategories()).subscribe(data =>{
-    this.user = data[0].name;
-    this.categories = data[1];
-    loading.dismiss();
-  })
-}
+  public getItemData() {
+    let loading = this.loadCtrl.create();
+    loading.present();
+    this.post = this.navParams.get("item");
+    Observable.forkJoin(this.getAuthorData(),
+      this.getCategories()).subscribe(data => {
+      const response = (data as any);
+        console.log("dataaaa", data);
+      this.user = response[0].name;
+      this.categories = response[1];
+      loading.dismiss();
+    });
+  }
 
-public getAuthorData(){
+  public getAuthorData() {
     return this.wordpress.getAuthor(this.post.author);
-}
+  }
 
-public getCategories(){
-  return this.wordpress.getPostCategories(this.post);
-}
+  public getCategories() {
+    return this.wordpress.getPostCategories(this.post);
+  }
 
 
 }
