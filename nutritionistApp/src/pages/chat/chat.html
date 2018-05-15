@@ -1,0 +1,40 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title align="center">Chat
+      <ion-input placeholder="O que deseja?" [(ngModel)]="facebook.nome"></ion-input>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="logout()">Logout
+        <ion-icon class="toolbar-icon" name="log-out"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding #content id="content">
+
+  <ion-card *ngFor="let msg of messages">
+    <ion-card-header></ion-card-header>
+    {{msg.nome}} disse:
+    <ion-card-content>
+      {{msg.message}}
+    </ion-card-content>
+  </ion-card>
+  <div id="content-end"></div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-input placeholder="escreva algo..." [(ngModel)]="message"></ion-input>
+    <ion-buttons end>
+      <button ion-button icon-right (click)="sendMessage()">Enviar
+        <ion-icon name="send"></ion-icon>
+      </button>
+
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-footer>

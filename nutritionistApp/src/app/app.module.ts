@@ -16,6 +16,7 @@ import {ProfilePageModule} from "../pages/profile/profile.module";
 import {WordpressService} from "../services/wordpress.service";
 import {HttpClientModule} from "@angular/common/http";
 import {PostPageModule} from "../pages/postpage/postpage.module";
+import {ChatPageModule} from "../pages/chat/chat.module";
 
 
 const firebaseConfig = {
@@ -44,7 +45,8 @@ const firebaseConfig = {
     ChangePasswordPageModule,
     ProfilePageModule,
     HttpClientModule,
-    PostPageModule
+    PostPageModule,
+    ChatPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

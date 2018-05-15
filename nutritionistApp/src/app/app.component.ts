@@ -1,8 +1,8 @@
-import {Component} from '@angular/core';
-import {Platform} from 'ionic-angular';
-import {StatusBar} from '@ionic-native/status-bar';
-import {SplashScreen} from '@ionic-native/splash-screen';
-import {HomePage} from '../pages/login/login';
+import {Component} from "@angular/core";
+import {Platform} from "ionic-angular";
+import {StatusBar} from "@ionic-native/status-bar";
+import {SplashScreen} from "@ionic-native/splash-screen";
+import {HomePage} from "../pages/login/login";
 import {AngularFireAuth} from "angularfire2/auth";
 import {DicasPage} from "../pages/dicas/dicas";
 
@@ -31,7 +31,8 @@ export class MyApp {
   //verificando se o usuário esta logado para não exibir a tela de login.
   private checkingLoggedInUser(users: any, authObserver: any) {
     if (users) {
-      this.rootPage = DicasPage;
+     // this.rootPage = DicasPage;
+     this.rootPage = DicasPage;
       authObserver.unsubscribe();
     } else {
       this.rootPage = HomePage;

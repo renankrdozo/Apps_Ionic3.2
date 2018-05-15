@@ -1,5 +1,5 @@
-import {Component, ViewChild} from '@angular/core';
-import {NavController, Platform} from 'ionic-angular';
+import {Component, ViewChild} from "@angular/core";
+import {NavController, Platform} from "ionic-angular";
 import {DicasPage} from "../dicas/dicas";
 import {RegisterPage} from "../register/register";
 import {AngularFireAuth} from "angularfire2/auth";
@@ -53,6 +53,7 @@ export class HomePage {
       console.log("coreeee web");
       this.fireAuth.auth.signInWithPopup(new firebase.auth.FacebookAuthProvider()).then(data => {
         console.log("User facebook core : ", data);
+        console.log("AQUIIIIIIIIII");
         this.navCtrl.setRoot(DicasPage);
       }).catch((error: any) => {
         console.log(error);
