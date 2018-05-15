@@ -20,7 +20,7 @@
 
   <ion-card *ngFor="let post of posts">
     <div>
-      <!--<img [src]="post.better_featured_image.source_url"/>-->
+      <img [src]="post.better_featured_image.source_url"/>
 
     </div>
     <ion-card-content>
@@ -42,6 +42,7 @@
       </ion-col>
 
       <ion-col text-right>
+        <!--butao que leva um post para outra página-->
         <button ion-button small color="primary" (click)="postTapped($event, post)" icon-start>
           Leia Mais
         </button>

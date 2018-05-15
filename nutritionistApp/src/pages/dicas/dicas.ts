@@ -66,25 +66,30 @@ export class DicasPage {
 
   public getRecentPosts() {
     this.moreAvailablePage = true;
-    if (!(this.posts.length > 0)) {
+    if (!this.posts.length > 0) {
       this.initLoading();
-      this.wordPress.getRecentPosts(this.page).subscribe(res => {
-          const response = (res as any);
-          for (let post of response) {
-            post.excerpt.rendered = post.excerpt.rendered.split('<a')[0] + '<p>';
-            this.posts.push(post);
-          }
-          console.log("REQUEST recent post");
-          console.log(this.posts);
-          this.closeLoading();
-          // this.completeRefresher();
-        }, error => {
-          console
-            .log(error);
-          this.closeLoading();
-          // this.completeRefresher();
+      this.wordPress.getRecentPosts().subscribe(res => {
+        const response = (res as any);
+        for (let post of response) {
+          post.excerpt.rendered = post.excerpt.rendered.split('<a')[0] + '<p>';
+          this.posts.push(post);
         }
-      );
+        console.log("REQUEST recent post");
+        console.log(this.posts);
+        this.closeLoading();
+        this.completeRefresher();
+      }, error => {
+        console
+          .log(error);
+        this.closeLoading();
+        this.completeRefresher();
+      });
+
+    }else {
+      console.log("jdjdjdjd");
+      this.posts = this.posts;
+      console.log(this.posts);
+      this.completeRefresher();
     }
   }
 
@@ -104,7 +109,7 @@ export class DicasPage {
         const response = (data as any);
         for (let post of response) {
           if (!loading) {
-            infiniteScroll.complete();
+            this.infiniteScroll.complete();
           } else {
             this.posts.push(post);
             loading = false;
@@ -112,7 +117,6 @@ export class DicasPage {
         }
       }, error => {
         this.moreAvailablePage = false;
-        //this.completeRefresher();
       }
     );
   }
@@ -125,6 +129,22 @@ export class DicasPage {
     }, 2000);
     //this.isRefreshing = true;
     // this.wordPress.getRecentPosts(this.page);
+  }
+
+
+  //método inicial que faz o refresh na página de filmes
+  public doRefresh(refresher) {
+    this.refresher = refresher;
+    console.log('Begin async operation', refresher);
+    this.isRefreshing = true;
+    this.getRecentPosts();
+  }
+
+  public completeRefresher() {
+    if (this.isRefreshing) {
+      this.refresher.complete();
+      this.isRefreshing = false;
+    }
   }
 
 }

@@ -12,16 +12,16 @@ export class WordpressService {
   public constructor(public httpClient: HttpClient) {
   }
 
-  public getRecentPosts(page = 1) {
-    //return this.httpClient.get(Config.WORDPRESS_REST_URL + 'posts?page=' + page);
-    return this.httpClient.get("../../assets/requests.json");
+  public getRecentPosts(page: number = 1) {
+    return this.httpClient.get(Config.WORDPRESS_REST_URL + 'posts?page=' + page);
+    //return this.httpClient.get("../../assets/requests.json");
   }
 
   public getAuthor(author) {
-    // return this.httpClient.get(Config.WORDPRESS_REST_URL + 'users/' + author);
-    return this.httpClient.get(Config.WORDPRESS_REST_URL + 'users/' + author).map(res => {
-      JSON.parse(JSON.stringify(res || null));
-    });
+    return this.httpClient.get(Config.WORDPRESS_REST_URL + 'users/' + author);
+    // return this.httpClient.get(Config.WORDPRESS_REST_URL + 'users/' + author).map(res => {
+    //   JSON.parse(JSON.stringify(res || null));
+    // });
 
 
   }
@@ -35,9 +35,9 @@ export class WordpressService {
   }
 
   public getCategory(category) {
-    //return this.httpClient.get(Config.WORDPRESS_REST_URL + "categories/" + category);
-    return this.httpClient.get(Config.WORDPRESS_REST_URL + "categories/" + category).map(res => {
-      JSON.parse(JSON.stringify(res || null));
-    });
+    return this.httpClient.get(Config.WORDPRESS_REST_URL + "categories/" + category);
+    // return this.httpClient.get(Config.WORDPRESS_REST_URL + "categories/" + category).map(res => {
+    //   JSON.parse(JSON.stringify(res || null));
+    // });
   }
 }

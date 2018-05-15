@@ -5,13 +5,6 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/observable/forkJoin';
 import {Observable} from "rxjs/Observable";
 
-/**
- * Generated class for the PostpagePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-postpage',
@@ -29,11 +22,29 @@ export class Postpage {
               public wordpress: WordpressService) {
   }
 
-  ionViewDidEnter() {
-    let loading = this.loadCtrl.create();
-    loading.present();
-    this.post = this.navParams.get("item");
-
+  public ionViewDidEnter() {
+    this.getItemData();
   }
+
+  public getItemData(){
+  let loading = this.loadCtrl.create();
+  loading.present();
+  this.post = this.navParams.get("item");
+  Observable.forkJoin(this.getAuthorData(),
+  this.getCategories()).subscribe(data =>{
+    this.user = data[0].name;
+    this.categories = data[1];
+    loading.dismiss();
+  })
+}
+
+public getAuthorData(){
+    return this.wordpress.getAuthor(this.post.author);
+}
+
+public getCategories(){
+  return this.wordpress.getPostCategories(this.post);
+}
+
 
 }
